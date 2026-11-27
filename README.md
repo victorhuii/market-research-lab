@@ -1,7 +1,7 @@
 # MarketLab
 
 <!-- project-navigation:start -->
-[Architecture](docs/ARCHITECTURE.md) · [Design choices](docs/DECISIONS.md) · [Portfolio](docs/PORTFOLIO.md)
+[Architecture](docs/ARCHITECTURE.md) · [Design choices](docs/DECISIONS.md) · [Portfolio](docs/PORTFOLIO.md) · [Demo and deployment](docs/DEPLOYMENT.md)
 <!-- project-navigation:end -->
 
 Market-making research and a deterministic exchange simulator, with a local dashboard for inspecting both.

@@ -1,0 +1,32 @@
+{
+  "repo": "market-research-lab",
+  "title": "MarketLab",
+  "summary": "Local market-making research, explicit simulated fill assumptions, and a deterministic exchange sandbox.",
+  "image": "docs/assets/research-demo.png",
+  "image_kind": "Generated result figure",
+  "architecture": "docs/ARCHITECTURE.md",
+  "portfolio": "docs/PORTFOLIO.md",
+  "ownership": "Original implementation",
+  "evidence": "Causal research/execution separation with synthetic demonstration evidence.",
+  "limitation": "Synthetic demos and simulated fills are labeled; no real profitability claim.",
+  "output": "site",
+  "deployment_doc": "docs/DEPLOYMENT.md",
+  "decisions_doc": "docs/DECISIONS.md",
+  "decisions": [
+    [
+      "Research and matching sandbox are separate",
+      "Avoid treating synthetic participant matching as evidence of historical fill quality.",
+      "Replay assumptions remain approximations."
+    ],
+    [
+      "Integer matching and single-writer persistence",
+      "Keep trades, balances, deduplication and recovery inspectable.",
+      "Local simulator, not an authenticated multi-user venue."
+    ],
+    [
+      "Python calculations with a buildless UI",
+      "Keep analysis authoritative in one backend and remove bundler/runtime services.",
+      "Standard-library server is scoped to loopback use."
+    ]
+  ]
+}

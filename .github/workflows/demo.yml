@@ -1,0 +1,25 @@
+name: demo package
+on:
+  push:
+    branches: [main]
+    paths: ['deployment.json', 'scripts/build_demo.py', 'scripts/check_demo.py', 'docs/assets/research-demo.png', 'web/**', '.github/workflows/demo.yml']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/build_demo.py
+      - run: python scripts/check_demo.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pages-demo
+          path: site
+          include-hidden-files: false
