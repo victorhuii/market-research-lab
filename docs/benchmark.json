@@ -1,0 +1,26 @@
+{
+  "machine": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+  "processor": "arm64",
+  "python": "3.14.2",
+  "workload": "one caller; alternating unmatched IOC orders; empty resting book; no networking; service time only; durable wrapper copies cached history",
+  "results": {
+    "core": {
+      "commands": 2000,
+      "commands_per_second": 152631.46,
+      "latency_us": {
+        "p50": 5.08,
+        "p95": 6.25,
+        "p99": 25.04
+      }
+    },
+    "journal_fsync": {
+      "commands": 2000,
+      "commands_per_second": 202.22,
+      "latency_us": {
+        "p50": 4864.12,
+        "p95": 9183.75,
+        "p99": 9914.25
+      }
+    }
+  }
+}
