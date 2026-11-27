@@ -1,5 +1,9 @@
 # MarketLab
 
+<!-- project-navigation:start -->
+[Architecture](docs/ARCHITECTURE.md) · [Design choices](docs/DECISIONS.md) · [Portfolio](docs/PORTFOLIO.md)
+<!-- project-navigation:end -->
+
 Market-making research and a deterministic exchange simulator, with a local dashboard for inspecting both.
 
 [Portfolio case study](docs/PORTFOLIO.md) · [Research findings](docs/demo/findings.md) · [Architecture](docs/ARCHITECTURE.md) · [Run checks](https://github.com/victorhuii/market-research-lab/actions)
