@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 from marketlab.engine import DurableExchange, Engine
+from marketlab.flow import commands
 
 
 def order(n, side='buy', price=100, quantity=5, **kw):
@@ -13,6 +14,16 @@ def order(n, side='buy', price=100, quantity=5, **kw):
 
 
 class EngineTests(unittest.TestCase):
+    def test_participant_flow(self):
+        stream = commands(200)
+        self.assertEqual(stream, commands(200))
+        e = Engine()
+        for command in stream:
+            e.execute(command)
+        self.assertTrue(e.trades)
+        self.assertTrue(any(c['type'] == 'cancel' for c in stream))
+        self.assertEqual(sum(b['inventory'] for b in e.balances.values()), 0)
+
     def test_price_time_partial_ioc(self):
         e = Engine()
         e.execute(order(1, 'sell', 102, 3))

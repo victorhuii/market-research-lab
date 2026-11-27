@@ -20,9 +20,9 @@ Model C is selected on validation log loss from 0.1, 1 and 10; the model stays f
 | inventory | touch | -2.1604 | 2.2637 | 498 | 9 |
 | inventory | through | -3.1896 | 3.2905 | 264 | 7 |
 | inventory | queue | -1.0597 | 1.6127 | 266 | 10 |
-| signal | touch | -1.0997 | 1.6724 | 473 | 9 |
-| signal | through | -3.1801 | 3.2607 | 238 | 7 |
-| signal | queue | 0.0804 | 0.9541 | 244 | 9 |
+| signal | touch | -1.0797 | 1.6624 | 472 | 9 |
+| signal | through | -3.1901 | 3.2607 | 237 | 7 |
+| signal | queue | 0.1004 | 0.9441 | 243 | 9 |
 
 ## Interpretation
 
@@ -36,7 +36,7 @@ Full per-class metrics, confusion matrices, calibration bins, per-session outcom
 - Top-of-book depth cannot identify exact queue position or own market impact.
 - One unit per quote; each activation cancels/replaces the prior quote; latency is in events.
 - Session P&L is marked at final midpoint; inventory resets between sessions without liquidation cost.
-- Signals are zero during warmup and final unlabeled horizon. No annualization or independent-row significance claims.
+- Signals are zero during the 10-event warmup. Final unlabeled events receive forecasts but are excluded from prediction scoring. No annualization or independent-row significance claims.
 - Post-fill markout clips to session end when the full horizon is unavailable.
 
 Touch fills require a correctly sided observed trade at or beyond the quote. Through fills require a strictly better execution opportunity. The queue proxy additionally requires observed trade quantity to exceed all displayed same-side depth at decision time; it is a sensitivity case, not queue reconstruction.

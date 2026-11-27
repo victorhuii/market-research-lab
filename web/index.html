@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A local market-making research workbench and deterministic exchange sandbox.">
+  <title>MarketLab</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="/">MarketLab<span>Research workbench</span></a><nav aria-label="Workspace"><button class="tab active" data-view="research" aria-pressed="true">Research</button><button class="tab" data-view="exchange" aria-pressed="false">Exchange</button><button class="tab" data-view="history" aria-pressed="false">Experiments</button></nav><span class="local-label">Local / single instrument</span></header>
+  <main>
+    <div id="message" role="status" aria-live="polite" hidden></div>
+    <section id="research-view">
+      <div class="page-heading"><div><p class="eyebrow">MARKET MICROSTRUCTURE</p><h1>Market-making research</h1><p>Forecasts, inventory risk and execution assumptions.</p></div><div class="heading-actions"><a class="button" href="/api/export" download>Export results</a><a class="text-link" href="/api/report" download>Download findings</a></div></div>
+      <div class="source-bar"><strong id="source-label">Loading experiment…</strong><span id="dataset-label"></span><div><button class="subtle" id="demo-button">Use demo</button><label class="button small" for="csv-file">Import CSV</label><input id="csv-file" type="file" accept=".csv,text/csv" hidden><a class="text-link" href="/api/csv" download>Download data</a></div></div>
+      <div class="workspace">
+        <aside>
+          <form id="settings-form"><h2>Experiment</h2><p class="muted">Reruns use the same held-out sessions. Treat repeated tuning as exploratory.</p>
+            <label>Seed<input name="seed" type="number" min="0" max="1000000" value="42" required></label>
+            <label>Prediction horizon <span>events</span><input name="horizon" type="number" min="1" max="20" value="5" required></label>
+            <label>Maker fee <span>basis points</span><input name="fee_bps" type="number" min="0" max="100" step="0.1" value="1" required></label>
+            <label>Quote latency <span>events</span><input name="latency" type="number" min="1" max="10" value="1" required></label>
+            <label>Position limit <span>units</span><input name="position_limit" type="number" min="1" max="100" value="10" required></label>
+            <label>Half spread <span>ticks</span><input name="half_spread" type="number" min="1" max="20" value="1" required></label>
+            <label>Tick value <span>USD / unit</span><input name="tick_value" type="number" min="0.000001" max="1000" step="any" value="0.01" required></label>
+            <button class="primary" type="submit">Run experiment</button>
+          </form>
+          <details><summary>Data contract</summary><p>One symbol. At least 5 chronological sessions of 30 events. Prices and sizes use integer ticks and units. Timestamps use milliseconds. Max 50,000 rows / 8 MB.</p><p>Download the demo CSV for the exact header. Trade side means aggressor side. No trade: price and quantity 0, side “none”.</p></details>
+        </aside>
+        <div class="research-content">
+          <div class="section-heading"><h2>Strategy replay</h2><div class="inline-controls"><label class="sr-only" for="strategy-select">Quoting strategy</label><select id="strategy-select"><option value="fixed">Fixed quotes</option><option value="inventory">Inventory-aware</option><option value="signal" selected>Signal-aware</option></select><label class="sr-only" for="fill-select">Fill assumption</label><select id="fill-select"><option value="through" selected>Strict trade-through</option><option value="touch">Trade at touch</option><option value="queue">Queue proxy</option></select></div></div>
+          <div class="metrics" id="strategy-metrics"></div>
+          <div class="chart-panel"><div class="chart-heading"><h3>Marked-to-market P&L</h3><span id="curve-caption">Held-out sessions · USD</span></div><svg id="equity-chart" viewBox="0 0 900 240" role="img" aria-label="Strategy profit and loss across held-out events"></svg><div class="replay-controls"><button id="play-button" class="button small" aria-label="Play replay">Play</button><label class="sr-only" for="replay-slider">Replay event</label><input id="replay-slider" type="range" min="0" max="719" value="719"><span id="event-label"></span></div></div>
+          <div class="two-column"><div class="panel"><div class="section-heading"><h3>Top of book</h3><span id="book-time" class="muted"></span></div><div id="book-summary"></div><svg id="depth-chart" viewBox="0 0 420 105" role="img" aria-label="Displayed bid and ask depth at selected event"></svg><p class="caption">Aggregated best bid and ask. Deeper levels are unobserved.</p></div><div class="panel"><h3>Next midpoint movement</h3><div id="probability-bars"></div><p id="position-label" class="caption"></p></div></div>
+          <section class="results-section"><div class="section-heading"><h2>Prediction quality</h2><span class="muted">Final test · down / flat / up</span></div><div class="table-wrap"><table><thead><tr><th>Model</th><th>Macro F1</th><th>Log loss</th><th>Brier</th><th>Calibration error</th></tr></thead><tbody id="prediction-table"></tbody></table></div><p class="caption">Higher F1 is better. Lower loss, Brier and calibration error are better. Forecast quality does not establish trading profitability.</p><details><summary>Class results and calibration</summary><div id="class-results"></div></details></section>
+          <section class="results-section"><div class="section-heading"><h2>Execution sensitivity</h2><span class="muted">Identical data and settings</span></div><div class="table-wrap"><table><thead><tr><th>Strategy</th><th>Fill model</th><th>Net P&L</th><th>Drawdown</th><th>Fills</th><th>Max inventory</th></tr></thead><tbody id="sensitivity-table"></tbody></table></div></section>
+          <details open><summary>Method and assumptions</summary><div id="method-content"></div></details>
+        </div>
+      </div>
+    </section>
+    <section id="exchange-view" hidden>
+      <div class="page-heading"><div><p class="eyebrow">DETERMINISTIC MATCHING</p><h1>Exchange sandbox</h1><p>Price-time priority. Integer ticks. Durable command replay.</p></div><div class="heading-actions"><button id="flow-button" class="button">Run 100 simulated commands</button><button id="snapshot-button" class="button">Save snapshot</button><button id="recover-button" class="button">Recover and compare</button></div></div>
+      <p class="notice">This sandbox is independent of the research replay. Orders are simulated and persist on this computer.</p>
+      <div class="workspace"><aside><form id="order-form"><h2>New limit order</h2><label>Participant<input name="participant" value="alice" maxlength="100" required></label><label>Side<select name="side"><option value="buy">Buy</option><option value="sell">Sell</option></select></label><label>Limit price <span>integer ticks</span><input name="price" type="number" value="10000" min="1" max="1000000000" required></label><label>Quantity <span>integer units</span><input name="quantity" type="number" value="5" min="1" max="1000000000" required></label><label>Time in force<select name="tif"><option value="GTC">Good till cancelled</option><option value="IOC">Immediate or cancel</option></select></label><button type="submit" class="primary">Submit order</button></form><p class="caption">Add a sell from “bob” at the same price to match. Trades execute at the resting order’s price. No self-trade prevention or funding checks.</p></aside><div class="research-content"><div class="section-heading"><h2>Resting book</h2><span id="exchange-sequence" class="muted"></span></div><div id="exchange-book" class="two-column"></div><section class="results-section"><h2>Open orders</h2><div class="table-wrap"><table><thead><tr><th>Order</th><th>Participant</th><th>Side</th><th>Price</th><th>Remaining</th><th>Action</th></tr></thead><tbody id="orders-table"></tbody></table></div></section><section class="results-section"><h2>Trades</h2><div class="table-wrap"><table><thead><tr><th>Trade</th><th>Buyer</th><th>Seller</th><th>Price</th><th>Quantity</th></tr></thead><tbody id="trades-table"></tbody></table></div></section><section class="results-section"><h2>Participant balances</h2><div class="table-wrap"><table><thead><tr><th>Participant</th><th>Inventory</th><th>Cash (ticks × units)</th></tr></thead><tbody id="balances-table"></tbody></table></div></section><details><summary>Persistence contract</summary><p>One local writer. A command is acknowledged after journal flush and fsync. A crash before acknowledgment may still leave the command persisted; retrying the same request ID returns the original result. Conflicting reuse is rejected. Recovery replays the snapshot and subsequent complete journal records. A torn final line is removed; complete corrupt records fail closed.</p><p>The sandbox caps commands at 5,000. It uses a simple history-copying durability wrapper for clarity, so cost grows with journal length. Benchmark results separate it from the matching core.</p></details></div></div>
+    </section>
+    <section id="history-view" hidden><div class="page-heading"><div><p class="eyebrow">REPRODUCIBILITY</p><h1>Experiment log</h1><p>Recent runs on this computer. Failed signals and losing strategies stay visible.</p></div><button class="button" id="refresh-history">Refresh</button></div><div class="table-wrap"><table><thead><tr><th>Run (local time)</th><th>Data</th><th>Seed</th><th>Horizon</th><th>Fee bps</th><th>Latency</th><th>Model F1</th><th>Signal / through P&L</th></tr></thead><tbody id="history-table"></tbody></table></div><p class="caption">Last 30 runs shown. Full records: runtime/experiments.jsonl. Inputs are fingerprinted with SHA-256. Repeated use of the same test sessions is exploratory.</p></section>
+  </main>
+  <footer><span>MarketLab</span><span>Research and simulation · no live orders</span></footer>
+</body>
+</html>

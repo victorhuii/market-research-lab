@@ -40,20 +40,22 @@ class Settings:
                 raise ValueError(f'{name} must be finite and between {low} and {high}')
 
 
-def feature_rows(rows, horizon):
+def feature_rows(rows, horizon, include_unlabeled=False):
     result = []
     grouped = defaultdict(list)
     for index, row in enumerate(rows):
         grouped[row['session']].append((index, row))
     for session, values in grouped.items():
         mids = np.array([(r['bid'] + r['ask']) / 2 for _, r in values])
-        for i in range(10, len(values) - horizon):
+        for i in range(10, len(values) if include_unlabeled else len(values) - horizon):
             index, r = values[i]
             features = [r['ask'] - r['bid'], (r['bid_size'] - r['ask_size']) / (r['bid_size'] + r['ask_size']),
                         mids[i] - mids[i-1], mids[i] - mids[i-5], float(np.std(np.diff(mids[i-10:i+1]))),
                         r['trade_quantity'] * (1 if r['trade_side'] == 'buy' else -1 if r['trade_side'] == 'sell' else 0)]
-            result.append(dict(index=index, session=session, timestamp=r['timestamp'], label_end=values[i+horizon][1]['timestamp'],
-                               x=features, y=int(np.sign(mids[i+horizon] - mids[i]))))
+            has_label = i + horizon < len(values)
+            result.append(dict(index=index, session=session, timestamp=r['timestamp'],
+                               label_end=values[i+horizon][1]['timestamp'] if has_label else None,
+                               x=features, y=int(np.sign(mids[i+horizon] - mids[i])) if has_label else None))
     return result
 
 
@@ -182,7 +184,9 @@ def run(settings=None, rows=None, source='synthetic'):
     imbalance = np.array([[.65, .25, .1] if e['x'][1] < -.2 else [.1, .25, .65] if e['x'][1] > .2 else [.15, .7, .15] for e in test])
     model_p = probabilities(model, xtest)
     predictions = {'majority': metrics(ytest, majority), 'imbalance': metrics(ytest, imbalance), 'logistic': metrics(ytest, model_p)}
-    signal_map = {e['index']: float(p[2]-p[0]) for e, p in zip(test, model_p)}
+    inference = [e for e in feature_rows(rows, settings.horizon, include_unlabeled=True) if e['session'] in splits['test']]
+    inference_p = probabilities(model, np.array([e['x'] for e in inference]))
+    signal_map = {e['index']: float(p[2]-p[0]) for e, p in zip(inference, inference_p)}
     test_rows = [r for r in rows if r['session'] in splits['test']]
     global_indices = [i for i, r in enumerate(rows) if r['session'] in splits['test']]
     grouped = defaultdict(list)
@@ -208,7 +212,7 @@ def run(settings=None, rows=None, source='synthetic'):
                                    turnover=sum(s['turnover'] for s in sessions), fees=sum(s['fees'] for s in sessions),
                                    sessions=sessions, curve=curve))
     frames = []
-    pmap = {e['index']: p.tolist() for e, p in zip(test, model_p)}
+    pmap = {e['index']: p.tolist() for e, p in zip(inference, inference_p)}
     for i, r in zip(global_indices, test_rows):
         frames.append({**r, 'mid': (r['bid']+r['ask']) / 2, 'probabilities': pmap.get(i), 'signal': signal_map.get(i, 0.)})
     return dict(source=source, synthetic=source == 'synthetic', settings=asdict(settings), audit=audit,
@@ -222,7 +226,7 @@ def run(settings=None, rows=None, source='synthetic'):
                              'Top-of-book depth cannot identify exact queue position or own market impact.',
                              'One unit per quote; each activation cancels/replaces the prior quote; latency is in events.',
                              'Session P&L is marked at final midpoint; inventory resets between sessions without liquidation cost.',
-                             'Signals are zero during warmup and final unlabeled horizon. No annualization or independent-row significance claims.',
+                             'Signals are zero during the 10-event warmup. Final unlabeled events receive forecasts but are excluded from prediction scoring. No annualization or independent-row significance claims.',
                              'Post-fill markout clips to session end when the full horizon is unavailable.'])
 
 

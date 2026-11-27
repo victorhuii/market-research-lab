@@ -53,6 +53,7 @@ class ResearchTests(unittest.TestCase):
         self.assertTrue(all(s['max_inventory'] <= 10 for s in a['strategies']))
         self.assertEqual(sum(a['audit']['sessions'].values()), 300)
         self.assertEqual(len(a['predictions']['logistic']['confusion']), 3)
+        self.assertIsNotNone(a['frames'][-1]['probabilities'])
 
     def test_settings_reject_nonfinite_and_types(self):
         for settings in [Settings(fee_bps=float('nan')), Settings(latency=0), Settings(horizon=True), Settings(tick_value=-1)]:

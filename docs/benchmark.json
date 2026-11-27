@@ -2,24 +2,33 @@
   "machine": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
   "processor": "arm64",
   "python": "3.14.2",
-  "workload": "one caller; alternating unmatched IOC orders; empty resting book; no networking; service time only; durable wrapper copies cached history",
+  "workload": "seed 42; one caller; four participants; random buy/sell limit orders at 9995\u201310005 ticks, 1\u20138 units; 35% IOC probability, 15% cancel probability when resting orders exist; no networking; service time only; durable wrapper copies cached history",
+  "order_mix": {
+    "orders": 1697,
+    "cancels": 303,
+    "ioc": 591
+  },
   "results": {
     "core": {
       "commands": 2000,
-      "commands_per_second": 152631.46,
+      "commands_per_second": 124425.19,
+      "trades": 867,
+      "max_resting_orders": 21,
       "latency_us": {
-        "p50": 5.08,
-        "p95": 6.25,
-        "p99": 25.04
+        "p50": 5.88,
+        "p95": 12.71,
+        "p99": 18.04
       }
     },
     "journal_fsync": {
       "commands": 2000,
-      "commands_per_second": 202.22,
+      "commands_per_second": 153.49,
+      "trades": 867,
+      "max_resting_orders": 21,
       "latency_us": {
-        "p50": 4864.12,
-        "p95": 9183.75,
-        "p99": 9914.25
+        "p50": 6178.42,
+        "p95": 12035.12,
+        "p99": 13001.62
       }
     }
   }

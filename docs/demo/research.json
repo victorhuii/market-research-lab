@@ -22424,25 +22424,25 @@
     {
       "strategy": "signal",
       "fill": "touch",
-      "pnl": -1.099688,
-      "drawdown": 1.672407,
-      "fills": 473,
-      "fill_rate": 0.3298465829846583,
+      "pnl": -1.079708,
+      "drawdown": 1.662428,
+      "fills": 472,
+      "fill_rate": 0.3291492329149233,
       "max_inventory": 9,
-      "turnover": 47296.880000000005,
-      "fees": 4.7296879999999994,
+      "turnover": 47197.08,
+      "fees": 4.719708,
       "sessions": [
         {
           "session": "session-10",
-          "pnl": -0.755322,
+          "pnl": -0.745343,
           "drawdown": 0.835466,
           "max_inventory": 9,
-          "fills": 168,
+          "fills": 167,
           "opportunities": 478,
-          "fill_rate": 0.3514644351464435,
-          "turnover": 16753.22,
-          "fees": 1.675322,
-          "mean_markout": 0.005357142857142856
+          "fill_rate": 0.3493723849372385,
+          "turnover": 16653.43,
+          "fees": 1.665343,
+          "mean_markout": 0.005389221556886227
         },
         {
           "session": "session-11",
@@ -22458,15 +22458,15 @@
         },
         {
           "session": "session-12",
-          "pnl": 0.325526,
+          "pnl": 0.335527,
           "drawdown": 0.29746,
           "max_inventory": 6,
           "fills": 156,
           "opportunities": 478,
           "fill_rate": 0.3263598326359833,
-          "turnover": 15544.74,
-          "fees": 1.554474,
-          "mean_markout": 0.008653846153846154
+          "turnover": 15544.73,
+          "fees": 1.554473,
+          "mean_markout": 0.00871794871794872
         }
       ],
       "curve": [
@@ -23656,2432 +23656,2432 @@
           "cash": 298.624617
         },
         {
-          "equity": -0.775362,
-          "inventory": -2,
-          "cash": 198.824638
+          "equity": -0.775383,
+          "inventory": -3,
+          "cash": 298.624617
         },
         {
-          "equity": -0.775343,
+          "equity": -0.775364,
+          "inventory": -4,
+          "cash": 398.424636
+        },
+        {
+          "equity": -0.745343,
           "inventory": -3,
           "cash": 298.624657
         },
         {
-          "equity": -0.755322,
-          "inventory": -2,
-          "cash": 198.824678
-        },
-        {
-          "equity": -0.755322,
+          "equity": -0.745343,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -0.755381,
+          "equity": -0.745402,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": -0.755381,
+          "equity": -0.745402,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": -0.77544,
+          "equity": -0.765461,
           "inventory": 2,
           "cash": -201.200118
         },
         {
-          "equity": -0.7655,
+          "equity": -0.755521,
           "inventory": 1,
           "cash": -100.610178
         },
         {
-          "equity": -0.765561,
+          "equity": -0.755582,
           "inventory": 0,
           "cash": -0.010239
         },
         {
-          "equity": -0.765561,
+          "equity": -0.755582,
           "inventory": 0,
           "cash": -0.010239
         },
         {
-          "equity": -0.765621,
+          "equity": -0.755642,
           "inventory": 1,
           "cash": -100.620299
         },
         {
-          "equity": -0.745681,
+          "equity": -0.735702,
           "inventory": 2,
           "cash": -201.230359
         },
         {
-          "equity": -0.735744,
+          "equity": -0.725765,
           "inventory": 1,
           "cash": -100.610422
         },
         {
-          "equity": -0.755806,
+          "equity": -0.745827,
           "inventory": 2,
           "cash": -201.240484
         },
         {
-          "equity": -0.775806,
+          "equity": -0.765827,
           "inventory": 2,
           "cash": -201.240484
         },
         {
-          "equity": -0.775866,
+          "equity": -0.765887,
           "inventory": 3,
           "cash": -301.850544
         },
         {
-          "equity": -0.775926,
+          "equity": -0.765947,
           "inventory": 4,
           "cash": -402.460604
         },
         {
-          "equity": -0.815985,
+          "equity": -0.806006,
           "inventory": 5,
           "cash": -503.060663
         },
         {
-          "equity": -0.866045,
+          "equity": -0.856066,
           "inventory": 4,
           "cash": -402.470723
         },
         {
-          "equity": -0.906045,
+          "equity": -0.896066,
           "inventory": 4,
           "cash": -402.470723
         },
         {
-          "equity": -0.916103,
+          "equity": -0.906124,
           "inventory": 3,
           "cash": -301.900781
         },
         {
-          "equity": -0.906159,
+          "equity": -0.89618,
           "inventory": 4,
           "cash": -402.470837
         },
         {
-          "equity": -0.946159,
+          "equity": -0.93618,
           "inventory": 4,
           "cash": -402.470837
         },
         {
-          "equity": -0.946159,
+          "equity": -0.93618,
           "inventory": 4,
           "cash": -402.470837
         },
         {
-          "equity": -0.986159,
+          "equity": -0.97618,
           "inventory": 4,
           "cash": -402.470837
         },
         {
-          "equity": -0.986216,
+          "equity": -0.976237,
           "inventory": 3,
           "cash": -301.910894
         },
         {
-          "equity": -1.016216,
+          "equity": -1.006237,
           "inventory": 3,
           "cash": -301.910894
         },
         {
-          "equity": -1.016272,
+          "equity": -1.006293,
           "inventory": 2,
           "cash": -201.36095
         },
         {
-          "equity": -1.006328,
+          "equity": -0.996349,
           "inventory": 1,
           "cash": -100.811006
         },
         {
-          "equity": -1.026383,
+          "equity": -1.016404,
           "inventory": 2,
           "cash": -201.371061
         },
         {
-          "equity": -1.026437,
+          "equity": -1.016458,
           "inventory": 3,
           "cash": -301.921115
         },
         {
-          "equity": -1.016492,
+          "equity": -1.006513,
           "inventory": 2,
           "cash": -201.38117
         },
         {
-          "equity": -1.036546,
+          "equity": -1.026567,
           "inventory": 3,
           "cash": -301.931224
         },
         {
-          "equity": -1.036546,
+          "equity": -1.026567,
           "inventory": 3,
           "cash": -301.931224
         },
         {
-          "equity": -1.066546,
+          "equity": -1.056567,
           "inventory": 3,
           "cash": -301.931224
         },
         {
-          "equity": -1.046601,
+          "equity": -1.036622,
           "inventory": 2,
           "cash": -201.391279
         },
         {
-          "equity": -1.066601,
+          "equity": -1.056622,
           "inventory": 2,
           "cash": -201.391279
         },
         {
-          "equity": -1.066654,
+          "equity": -1.056675,
           "inventory": 3,
           "cash": -301.931332
         },
         {
-          "equity": -1.066709,
+          "equity": -1.05673,
           "inventory": 2,
           "cash": -201.391387
         },
         {
-          "equity": -1.066709,
+          "equity": -1.05673,
           "inventory": 2,
           "cash": -201.391387
         },
         {
-          "equity": -1.086709,
+          "equity": -1.07673,
           "inventory": 2,
           "cash": -201.391387
         },
         {
-          "equity": -1.086761,
+          "equity": -1.076782,
           "inventory": 3,
           "cash": -301.921439
         },
         {
-          "equity": -1.086815,
+          "equity": -1.076836,
           "inventory": 2,
           "cash": -201.391493
         },
         {
-          "equity": -1.106815,
+          "equity": -1.096836,
           "inventory": 2,
           "cash": -201.391493
         },
         {
-          "equity": -1.116868,
+          "equity": -1.106889,
           "inventory": 1,
           "cash": -100.871546
         },
         {
-          "equity": -1.126868,
+          "equity": -1.116889,
           "inventory": 1,
           "cash": -100.871546
         },
         {
-          "equity": -1.126917,
+          "equity": -1.116938,
           "inventory": 2,
           "cash": -201.371595
         },
         {
-          "equity": -1.126966,
+          "equity": -1.116987,
           "inventory": 3,
           "cash": -301.871644
         },
         {
-          "equity": -1.127015,
+          "equity": -1.117036,
           "inventory": 4,
           "cash": -402.371693
         },
         {
-          "equity": -1.127064,
+          "equity": -1.117085,
           "inventory": 5,
           "cash": -502.871742
         },
         {
-          "equity": -1.077064,
+          "equity": -1.067085,
           "inventory": 5,
           "cash": -502.871742
         },
         {
-          "equity": -1.027064,
+          "equity": -1.017085,
           "inventory": 5,
           "cash": -502.871742
         },
         {
-          "equity": -0.987117,
+          "equity": -0.977138,
           "inventory": 4,
           "cash": -402.351795
         },
         {
-          "equity": -0.947172,
+          "equity": -0.937193,
           "inventory": 3,
           "cash": -301.81185
         },
         {
-          "equity": -0.947172,
+          "equity": -0.937193,
           "inventory": 3,
           "cash": -301.81185
         },
         {
-          "equity": -0.947172,
+          "equity": -0.937193,
           "inventory": 3,
           "cash": -301.81185
         },
         {
-          "equity": -0.917228,
+          "equity": -0.907249,
           "inventory": 2,
           "cash": -201.261906
         },
         {
-          "equity": -0.897285,
+          "equity": -0.887306,
           "inventory": 1,
           "cash": -100.701963
         },
         {
-          "equity": -0.887341,
+          "equity": -0.877362,
           "inventory": 2,
           "cash": -201.272019
         },
         {
-          "equity": -0.887397,
+          "equity": -0.877418,
           "inventory": 3,
           "cash": -301.842075
         },
         {
-          "equity": -0.857397,
+          "equity": -0.847418,
           "inventory": 3,
           "cash": -301.842075
         },
         {
-          "equity": -0.897454,
+          "equity": -0.887475,
           "inventory": 4,
           "cash": -402.422132
         },
         {
-          "equity": -0.897512,
+          "equity": -0.887533,
           "inventory": 3,
           "cash": -301.85219
         },
         {
-          "equity": -0.867512,
+          "equity": -0.857533,
           "inventory": 3,
           "cash": -301.85219
         },
         {
-          "equity": -0.847571,
+          "equity": -0.837592,
           "inventory": 2,
           "cash": -201.272249
         },
         {
-          "equity": -0.837631,
+          "equity": -0.827652,
           "inventory": 1,
           "cash": -100.682309
         },
         {
-          "equity": -0.85769,
+          "equity": -0.847711,
           "inventory": 2,
           "cash": -201.282368
         },
         {
-          "equity": -0.857748,
+          "equity": -0.847769,
           "inventory": 3,
           "cash": -301.872426
         },
         {
-          "equity": -0.837808,
+          "equity": -0.827829,
           "inventory": 2,
           "cash": -201.282486
         },
         {
-          "equity": -0.857808,
+          "equity": -0.847829,
           "inventory": 2,
           "cash": -201.282486
         },
         {
-          "equity": -0.837808,
+          "equity": -0.827829,
           "inventory": 2,
           "cash": -201.282486
         },
         {
-          "equity": -0.817808,
+          "equity": -0.807829,
           "inventory": 2,
           "cash": -201.282486
         },
         {
-          "equity": -0.817868,
+          "equity": -0.807889,
           "inventory": 3,
           "cash": -301.892546
         },
         {
-          "equity": -0.787868,
+          "equity": -0.777889,
           "inventory": 3,
           "cash": -301.892546
         },
         {
-          "equity": -0.767931,
+          "equity": -0.757952,
           "inventory": 2,
           "cash": -201.272609
         },
         {
-          "equity": -0.767931,
+          "equity": -0.757952,
           "inventory": 2,
           "cash": -201.272609
         },
         {
-          "equity": -0.787931,
+          "equity": -0.777952,
           "inventory": 2,
           "cash": -201.272609
         },
         {
-          "equity": -0.787931,
+          "equity": -0.777952,
           "inventory": 2,
           "cash": -201.272609
         },
         {
-          "equity": -0.787994,
+          "equity": -0.778015,
           "inventory": 1,
           "cash": -100.652672
         },
         {
-          "equity": -0.788055,
+          "equity": -0.778076,
           "inventory": 2,
           "cash": -201.272733
         },
         {
-          "equity": -0.788118,
+          "equity": -0.778139,
           "inventory": 1,
           "cash": -100.652796
         },
         {
-          "equity": -0.788179,
+          "equity": -0.7782,
           "inventory": 2,
           "cash": -201.272857
         },
         {
-          "equity": -0.768179,
+          "equity": -0.7582,
           "inventory": 2,
           "cash": -201.272857
         },
         {
-          "equity": -0.768243,
+          "equity": -0.758264,
           "inventory": 1,
           "cash": -100.642921
         },
         {
-          "equity": -0.788305,
+          "equity": -0.778326,
           "inventory": 2,
           "cash": -201.272983
         },
         {
-          "equity": -0.808305,
+          "equity": -0.798326,
           "inventory": 2,
           "cash": -201.272983
         },
         {
-          "equity": -0.788305,
+          "equity": -0.778326,
           "inventory": 2,
           "cash": -201.272983
         },
         {
-          "equity": -0.778368,
+          "equity": -0.768389,
           "inventory": 1,
           "cash": -100.653046
         },
         {
-          "equity": -0.778432,
+          "equity": -0.768453,
           "inventory": 0,
           "cash": -0.02311
         },
         {
-          "equity": -0.778496,
+          "equity": -0.768517,
           "inventory": -1,
           "cash": 100.606826
         },
         {
-          "equity": -0.778558,
+          "equity": -0.768579,
           "inventory": 0,
           "cash": -0.023236
         },
         {
-          "equity": -0.788622,
+          "equity": -0.778643,
           "inventory": -1,
           "cash": 100.6067
         },
         {
-          "equity": -0.808687,
+          "equity": -0.798708,
           "inventory": -2,
           "cash": 201.246635
         },
         {
-          "equity": -0.808751,
+          "equity": -0.798772,
           "inventory": -1,
           "cash": 100.596571
         },
         {
-          "equity": -0.808817,
+          "equity": -0.798838,
           "inventory": -2,
           "cash": 201.246505
         },
         {
-          "equity": -0.788817,
+          "equity": -0.778838,
           "inventory": -2,
           "cash": 201.246505
         },
         {
-          "equity": -0.78888,
+          "equity": -0.778901,
           "inventory": -1,
           "cash": 100.606442
         },
         {
-          "equity": -0.808945,
+          "equity": -0.798966,
           "inventory": -2,
           "cash": 201.246377
         },
         {
-          "equity": -0.828945,
+          "equity": -0.818966,
           "inventory": -2,
           "cash": 201.246377
         },
         {
-          "equity": -0.81901,
+          "equity": -0.809031,
           "inventory": -1,
           "cash": 100.586312
         },
         {
-          "equity": -0.839076,
+          "equity": -0.829097,
           "inventory": -2,
           "cash": 201.236246
         },
         {
-          "equity": -0.869143,
+          "equity": -0.859164,
           "inventory": -3,
           "cash": 301.896179
         },
         {
-          "equity": -0.839143,
+          "equity": -0.829164,
           "inventory": -3,
           "cash": 301.896179
         },
         {
-          "equity": -0.83921,
+          "equity": -0.829231,
           "inventory": -4,
           "cash": 402.556112
         },
         {
-          "equity": -0.839275,
+          "equity": -0.829296,
           "inventory": -3,
           "cash": 301.896047
         },
         {
-          "equity": -0.799342,
+          "equity": -0.789363,
           "inventory": -4,
           "cash": 402.55598
         },
         {
-          "equity": -0.829406,
+          "equity": -0.819427,
           "inventory": -3,
           "cash": 301.905916
         },
         {
-          "equity": -0.829406,
+          "equity": -0.819427,
           "inventory": -3,
           "cash": 301.905916
         },
         {
-          "equity": -0.869473,
+          "equity": -0.859494,
           "inventory": -4,
           "cash": 402.565849
         },
         {
-          "equity": -0.909473,
+          "equity": -0.899494,
           "inventory": -4,
           "cash": 402.565849
         },
         {
-          "equity": -0.949473,
+          "equity": -0.939494,
           "inventory": -4,
           "cash": 402.565849
         },
         {
-          "equity": -0.949541,
+          "equity": -0.939562,
           "inventory": -3,
           "cash": 301.875781
         },
         {
-          "equity": -0.979541,
+          "equity": -0.969562,
           "inventory": -3,
           "cash": 301.875781
         },
         {
-          "equity": -1.019612,
+          "equity": -1.009633,
           "inventory": -4,
           "cash": 402.57571
         },
         {
-          "equity": -1.019612,
+          "equity": -1.009633,
           "inventory": -4,
           "cash": 402.57571
         },
         {
-          "equity": -1.069684,
+          "equity": -1.059705,
           "inventory": -5,
           "cash": 503.285638
         },
         {
-          "equity": -1.079756,
+          "equity": -1.069777,
           "inventory": -4,
           "cash": 402.555566
         },
         {
-          "equity": -1.079827,
+          "equity": -1.069848,
           "inventory": -3,
           "cash": 301.835495
         },
         {
-          "equity": -1.1199,
+          "equity": -1.109921,
           "inventory": -4,
           "cash": 402.555422
         },
         {
-          "equity": -1.119972,
+          "equity": -1.109993,
           "inventory": -3,
           "cash": 301.82535
         },
         {
-          "equity": -1.149972,
+          "equity": -1.139993,
           "inventory": -3,
           "cash": 301.82535
         },
         {
-          "equity": -1.150047,
+          "equity": -1.140068,
           "inventory": -4,
           "cash": 402.565275
         },
         {
-          "equity": -1.190047,
+          "equity": -1.180068,
           "inventory": -4,
           "cash": 402.565275
         },
         {
-          "equity": -1.140123,
+          "equity": -1.130144,
           "inventory": -5,
           "cash": 503.315199
         },
         {
-          "equity": -1.090123,
+          "equity": -1.080144,
           "inventory": -5,
           "cash": 503.315199
         },
         {
-          "equity": -1.090195,
+          "equity": -1.080216,
           "inventory": -4,
           "cash": 402.585127
         },
         {
-          "equity": -1.050268,
+          "equity": -1.040289,
           "inventory": -5,
           "cash": 503.305054
         },
         {
-          "equity": -1.100268,
+          "equity": -1.090289,
           "inventory": -5,
           "cash": 503.305054
         },
         {
-          "equity": -1.050341,
+          "equity": -1.040362,
           "inventory": -6,
           "cash": 604.024981
         },
         {
-          "equity": -1.050341,
+          "equity": -1.040362,
           "inventory": -6,
           "cash": 604.024981
         },
         {
-          "equity": -1.110341,
+          "equity": -1.100362,
           "inventory": -6,
           "cash": 604.024981
         },
         {
-          "equity": -1.070414,
+          "equity": -1.060435,
           "inventory": -5,
           "cash": 503.284908
         },
         {
-          "equity": -1.070414,
+          "equity": -1.060435,
           "inventory": -5,
           "cash": 503.284908
         },
         {
-          "equity": -1.020486,
+          "equity": -1.010507,
           "inventory": -6,
           "cash": 603.994836
         },
         {
-          "equity": -1.020486,
+          "equity": -1.010507,
           "inventory": -6,
           "cash": 603.994836
         },
         {
-          "equity": -1.080557,
+          "equity": -1.070578,
           "inventory": -5,
           "cash": 503.274765
         },
         {
-          "equity": -1.080628,
+          "equity": -1.070649,
           "inventory": -4,
           "cash": 402.554694
         },
         {
-          "equity": -1.130701,
+          "equity": -1.120722,
           "inventory": -5,
           "cash": 503.274621
         },
         {
-          "equity": -1.130701,
+          "equity": -1.120722,
           "inventory": -5,
           "cash": 503.274621
         },
         {
-          "equity": -1.130775,
+          "equity": -1.120796,
           "inventory": -6,
           "cash": 604.004547
         },
         {
-          "equity": -1.070775,
+          "equity": -1.060796,
           "inventory": -6,
           "cash": 604.004547
         },
         {
-          "equity": -1.130849,
+          "equity": -1.12087,
           "inventory": -7,
           "cash": 704.734473
         },
         {
-          "equity": -1.120924,
+          "equity": -1.110945,
           "inventory": -8,
           "cash": 805.474398
         },
         {
-          "equity": -1.040924,
+          "equity": -1.030945,
           "inventory": -8,
           "cash": 805.474398
         },
         {
-          "equity": -1.050996,
+          "equity": -1.041017,
           "inventory": -7,
           "cash": 704.744326
         },
         {
-          "equity": -1.12107,
+          "equity": -1.111091,
           "inventory": -8,
           "cash": 805.474252
         },
         {
-          "equity": -1.191146,
+          "equity": -1.181167,
           "inventory": -9,
           "cash": 906.224176
         },
         {
-          "equity": -1.191146,
+          "equity": -1.181167,
           "inventory": -9,
           "cash": 906.224176
         },
         {
-          "equity": -1.101146,
+          "equity": -1.091167,
           "inventory": -9,
           "cash": 906.224176
         },
         {
-          "equity": -1.031219,
+          "equity": -1.02124,
           "inventory": -8,
           "cash": 805.484103
         },
         {
-          "equity": -0.971291,
+          "equity": -0.961312,
           "inventory": -7,
           "cash": 704.754031
         },
         {
-          "equity": -0.981362,
+          "equity": -0.971383,
           "inventory": -6,
           "cash": 604.03396
         },
         {
-          "equity": -0.971435,
+          "equity": -0.961456,
           "inventory": -7,
           "cash": 704.753887
         },
         {
-          "equity": -0.901435,
+          "equity": -0.891456,
           "inventory": -7,
           "cash": 704.753887
         },
         {
-          "equity": -0.851505,
+          "equity": -0.841526,
           "inventory": -6,
           "cash": 604.043817
         },
         {
-          "equity": -0.911574,
+          "equity": -0.901595,
           "inventory": -5,
           "cash": 503.343748
         },
         {
-          "equity": -0.911645,
+          "equity": -0.901666,
           "inventory": -6,
           "cash": 604.043677
         },
         {
-          "equity": -0.971717,
+          "equity": -0.961738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -0.971717,
+          "equity": -0.961738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -0.971717,
+          "equity": -0.961738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -1.041717,
+          "equity": -1.031738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -1.111717,
+          "equity": -1.101738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -1.181717,
+          "equity": -1.171738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -1.181717,
+          "equity": -1.171738,
           "inventory": -7,
           "cash": 704.753605
         },
         {
-          "equity": -1.131791,
+          "equity": -1.121812,
           "inventory": -6,
           "cash": 604.003531
         },
         {
-          "equity": -1.131791,
+          "equity": -1.121812,
           "inventory": -6,
           "cash": 604.003531
         },
         {
-          "equity": -1.141864,
+          "equity": -1.131885,
           "inventory": -5,
           "cash": 503.263458
         },
         {
-          "equity": -1.101936,
+          "equity": -1.091957,
           "inventory": -4,
           "cash": 402.533386
         },
         {
-          "equity": -1.101936,
+          "equity": -1.091957,
           "inventory": -4,
           "cash": 402.533386
         },
         {
-          "equity": -1.072007,
+          "equity": -1.062028,
           "inventory": -3,
           "cash": 301.813315
         },
         {
-          "equity": -1.042078,
+          "equity": -1.032099,
           "inventory": -4,
           "cash": 402.513244
         },
         {
-          "equity": -1.002078,
+          "equity": -0.992099,
           "inventory": -4,
           "cash": 402.513244
         },
         {
-          "equity": -1.032146,
+          "equity": -1.022167,
           "inventory": -3,
           "cash": 301.823176
         },
         {
-          "equity": -1.012215,
+          "equity": -1.002236,
           "inventory": -2,
           "cash": 201.123107
         },
         {
-          "equity": -1.012215,
+          "equity": -1.002236,
           "inventory": -2,
           "cash": 201.123107
         },
         {
-          "equity": -0.992215,
+          "equity": -0.982236,
           "inventory": -2,
           "cash": 201.123107
         },
         {
-          "equity": -0.992284,
+          "equity": -0.982305,
           "inventory": -3,
           "cash": 301.803038
         },
         {
-          "equity": -0.992351,
+          "equity": -0.982372,
           "inventory": -2,
           "cash": 201.122971
         },
         {
-          "equity": -1.012351,
+          "equity": -1.002372,
           "inventory": -2,
           "cash": 201.122971
         },
         {
-          "equity": -1.012419,
+          "equity": -1.00244,
           "inventory": -1,
           "cash": 100.432903
         },
         {
-          "equity": -1.032489,
+          "equity": -1.02251,
           "inventory": -2,
           "cash": 201.122833
         },
         {
-          "equity": -1.03256,
+          "equity": -1.022581,
           "inventory": -3,
           "cash": 301.822762
         },
         {
-          "equity": -1.072631,
+          "equity": -1.062652,
           "inventory": -4,
           "cash": 402.522691
         },
         {
-          "equity": -1.042701,
+          "equity": -1.032722,
           "inventory": -3,
           "cash": 301.812621
         },
         {
-          "equity": -1.012701,
+          "equity": -1.002722,
           "inventory": -3,
           "cash": 301.812621
         },
         {
-          "equity": -1.052771,
+          "equity": -1.042792,
           "inventory": -4,
           "cash": 402.502551
         },
         {
-          "equity": -1.08284,
+          "equity": -1.072861,
           "inventory": -3,
           "cash": 301.802482
         },
         {
-          "equity": -1.122912,
+          "equity": -1.112933,
           "inventory": -4,
           "cash": 402.51241
         },
         {
-          "equity": -1.122983,
+          "equity": -1.113004,
           "inventory": -3,
           "cash": 301.792339
         },
         {
-          "equity": -1.123056,
+          "equity": -1.113077,
           "inventory": -4,
           "cash": 402.512266
         },
         {
-          "equity": -1.123056,
+          "equity": -1.113077,
           "inventory": -4,
           "cash": 402.512266
         },
         {
-          "equity": -1.083056,
+          "equity": -1.073077,
           "inventory": -4,
           "cash": 402.512266
         },
         {
-          "equity": -1.083128,
+          "equity": -1.073149,
           "inventory": -5,
           "cash": 503.222194
         },
         {
-          "equity": -1.083128,
+          "equity": -1.073149,
           "inventory": -5,
           "cash": 503.222194
         },
         {
-          "equity": -1.073201,
+          "equity": -1.063222,
           "inventory": -6,
           "cash": 603.942121
         },
         {
-          "equity": -1.073201,
+          "equity": -1.063222,
           "inventory": -6,
           "cash": 603.942121
         },
         {
-          "equity": -1.133272,
+          "equity": -1.123293,
           "inventory": -5,
           "cash": 503.22205
         },
         {
-          "equity": -1.093343,
+          "equity": -1.083364,
           "inventory": -4,
           "cash": 402.501979
         },
         {
-          "equity": -1.143415,
+          "equity": -1.133436,
           "inventory": -5,
           "cash": 503.211907
         },
         {
-          "equity": -1.193415,
+          "equity": -1.183436,
           "inventory": -5,
           "cash": 503.211907
         },
         {
-          "equity": -1.243415,
+          "equity": -1.233436,
           "inventory": -5,
           "cash": 503.211907
         },
         {
-          "equity": -1.283488,
+          "equity": -1.273509,
           "inventory": -4,
           "cash": 402.471834
         },
         {
-          "equity": -1.333564,
+          "equity": -1.323585,
           "inventory": -5,
           "cash": 503.221758
         },
         {
-          "equity": -1.333641,
+          "equity": -1.323662,
           "inventory": -6,
           "cash": 603.981681
         },
         {
-          "equity": -1.273641,
+          "equity": -1.263662,
           "inventory": -6,
           "cash": 603.981681
         },
         {
-          "equity": -1.333718,
+          "equity": -1.323739,
           "inventory": -7,
           "cash": 704.741604
         },
         {
-          "equity": -1.403796,
+          "equity": -1.393817,
           "inventory": -8,
           "cash": 805.511526
         },
         {
-          "equity": -1.323796,
+          "equity": -1.313817,
           "inventory": -8,
           "cash": 805.511526
         },
         {
-          "equity": -1.323796,
+          "equity": -1.313817,
           "inventory": -8,
           "cash": 805.511526
         },
         {
-          "equity": -1.323796,
+          "equity": -1.313817,
           "inventory": -8,
           "cash": 805.511526
         },
         {
-          "equity": -1.263872,
+          "equity": -1.253893,
           "inventory": -7,
           "cash": 704.74145
         },
         {
-          "equity": -1.273947,
+          "equity": -1.263968,
           "inventory": -6,
           "cash": 603.981375
         },
         {
-          "equity": -1.213947,
+          "equity": -1.203968,
           "inventory": -6,
           "cash": 603.981375
         },
         {
-          "equity": -1.274021,
+          "equity": -1.264042,
           "inventory": -5,
           "cash": 503.231301
         },
         {
-          "equity": -1.334097,
+          "equity": -1.324118,
           "inventory": -6,
           "cash": 603.981225
         },
         {
-          "equity": -1.294173,
+          "equity": -1.284194,
           "inventory": -5,
           "cash": 503.211149
         },
         {
-          "equity": -1.294247,
+          "equity": -1.284268,
           "inventory": -4,
           "cash": 402.461075
         },
         {
-          "equity": -1.294321,
+          "equity": -1.284342,
           "inventory": -3,
           "cash": 301.711001
         },
         {
-          "equity": -1.274395,
+          "equity": -1.264416,
           "inventory": -2,
           "cash": 200.960927
         },
         {
-          "equity": -1.27447,
+          "equity": -1.264491,
           "inventory": -3,
           "cash": 301.700852
         },
         {
-          "equity": -1.24447,
+          "equity": -1.234491,
           "inventory": -3,
           "cash": 301.700852
         },
         {
-          "equity": -1.21447,
+          "equity": -1.204491,
           "inventory": -3,
           "cash": 301.700852
         },
         {
-          "equity": -1.214541,
+          "equity": -1.204562,
           "inventory": -2,
           "cash": 200.980781
         },
         {
-          "equity": -1.214541,
+          "equity": -1.204562,
           "inventory": -2,
           "cash": 200.980781
         },
         {
-          "equity": -1.214614,
+          "equity": -1.204635,
           "inventory": -3,
           "cash": 301.700708
         },
         {
-          "equity": -1.244686,
+          "equity": -1.234707,
           "inventory": -2,
           "cash": 200.970636
         },
         {
-          "equity": -1.244686,
+          "equity": -1.234707,
           "inventory": -2,
           "cash": 200.970636
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.27476,
+          "equity": -1.264781,
           "inventory": -3,
           "cash": 301.700562
         },
         {
-          "equity": -1.274833,
+          "equity": -1.264854,
           "inventory": -2,
           "cash": 200.960489
         },
         {
-          "equity": -1.274908,
+          "equity": -1.264929,
           "inventory": -3,
           "cash": 301.700414
         },
         {
-          "equity": -1.274908,
+          "equity": -1.264929,
           "inventory": -3,
           "cash": 301.700414
         },
         {
-          "equity": -1.304984,
+          "equity": -1.295005,
           "inventory": -4,
           "cash": 402.450338
         },
         {
-          "equity": -1.264984,
+          "equity": -1.255005,
           "inventory": -4,
           "cash": 402.450338
         },
         {
-          "equity": -1.304984,
+          "equity": -1.295005,
           "inventory": -4,
           "cash": 402.450338
         },
         {
-          "equity": -1.30506,
+          "equity": -1.295081,
           "inventory": -5,
           "cash": 503.200262
         },
         {
-          "equity": -1.35506,
+          "equity": -1.345081,
           "inventory": -5,
           "cash": 503.200262
         },
         {
-          "equity": -1.415137,
+          "equity": -1.405158,
           "inventory": -6,
           "cash": 603.960185
         },
         {
-          "equity": -1.425214,
+          "equity": -1.415235,
           "inventory": -5,
           "cash": 503.180108
         },
         {
-          "equity": -1.425214,
+          "equity": -1.415235,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -1.415182,
+          "equity": -1.405203,
           "inventory": 1,
           "cash": -99.689968
         },
         {
-          "equity": -1.415153,
+          "equity": -1.405174,
           "inventory": 0,
           "cash": 0.010061
         },
         {
-          "equity": -1.415124,
+          "equity": -1.405145,
           "inventory": -1,
           "cash": 99.71009
         },
         {
-          "equity": -1.415093,
+          "equity": -1.405114,
           "inventory": 0,
           "cash": 0.010121
         },
         {
-          "equity": -1.415064,
+          "equity": -1.405085,
           "inventory": -1,
           "cash": 99.71015
         },
         {
-          "equity": -1.415035,
+          "equity": -1.405056,
           "inventory": -2,
           "cash": 199.410179
         },
         {
-          "equity": -1.435035,
+          "equity": -1.425056,
           "inventory": -2,
           "cash": 199.410179
         },
         {
-          "equity": -1.415035,
+          "equity": -1.405056,
           "inventory": -2,
           "cash": 199.410179
         },
         {
-          "equity": -1.415006,
+          "equity": -1.405027,
           "inventory": -3,
           "cash": 299.110208
         },
         {
-          "equity": -1.414977,
+          "equity": -1.404998,
           "inventory": -4,
           "cash": 398.810237
         },
         {
-          "equity": -1.414977,
+          "equity": -1.404998,
           "inventory": -4,
           "cash": 398.810237
         },
         {
-          "equity": -1.374947,
+          "equity": -1.364968,
           "inventory": -5,
           "cash": 498.500267
         },
         {
-          "equity": -1.424947,
+          "equity": -1.414968,
           "inventory": -5,
           "cash": 498.500267
         },
         {
-          "equity": -1.424916,
+          "equity": -1.414937,
           "inventory": -4,
           "cash": 398.800298
         },
         {
-          "equity": -1.464916,
+          "equity": -1.454937,
           "inventory": -4,
           "cash": 398.800298
         },
         {
-          "equity": -1.464888,
+          "equity": -1.454909,
           "inventory": -5,
           "cash": 498.510326
         },
         {
-          "equity": -1.46486,
+          "equity": -1.454881,
           "inventory": -6,
           "cash": 598.220354
         },
         {
-          "equity": -1.46486,
+          "equity": -1.454881,
           "inventory": -6,
           "cash": 598.220354
         },
         {
-          "equity": -1.474831,
+          "equity": -1.464852,
           "inventory": -5,
           "cash": 498.500383
         },
         {
-          "equity": -1.424831,
+          "equity": -1.414852,
           "inventory": -5,
           "cash": 498.500383
         },
         {
-          "equity": -1.4248,
+          "equity": -1.414821,
           "inventory": -4,
           "cash": 398.800414
         },
         {
-          "equity": -1.424769,
+          "equity": -1.41479,
           "inventory": -3,
           "cash": 299.100445
         },
         {
-          "equity": -1.46474,
+          "equity": -1.454761,
           "inventory": -4,
           "cash": 398.800474
         },
         {
-          "equity": -1.46471,
+          "equity": -1.454731,
           "inventory": -3,
           "cash": 299.090504
         },
         {
-          "equity": -1.44468,
+          "equity": -1.434701,
           "inventory": -2,
           "cash": 199.380534
         },
         {
-          "equity": -1.42468,
+          "equity": -1.414701,
           "inventory": -2,
           "cash": 199.380534
         },
         {
-          "equity": -1.42465,
+          "equity": -1.414671,
           "inventory": -3,
           "cash": 299.070564
         },
         {
-          "equity": -1.454621,
+          "equity": -1.444642,
           "inventory": -4,
           "cash": 398.770593
         },
         {
-          "equity": -1.494621,
+          "equity": -1.484642,
           "inventory": -4,
           "cash": 398.770593
         },
         {
-          "equity": -1.464591,
+          "equity": -1.454612,
           "inventory": -3,
           "cash": 299.060623
         },
         {
-          "equity": -1.434591,
+          "equity": -1.424612,
           "inventory": -3,
           "cash": 299.060623
         },
         {
-          "equity": -1.434591,
+          "equity": -1.424612,
           "inventory": -3,
           "cash": 299.060623
         },
         {
-          "equity": -1.464591,
+          "equity": -1.454612,
           "inventory": -3,
           "cash": 299.060623
         },
         {
-          "equity": -1.514561,
+          "equity": -1.504582,
           "inventory": -4,
           "cash": 398.750653
         },
         {
-          "equity": -1.564533,
+          "equity": -1.554554,
           "inventory": -5,
           "cash": 498.460681
         },
         {
-          "equity": -1.524504,
+          "equity": -1.514525,
           "inventory": -4,
           "cash": 398.74071
         },
         {
-          "equity": -1.524474,
+          "equity": -1.514495,
           "inventory": -3,
           "cash": 299.03074
         },
         {
-          "equity": -1.494474,
+          "equity": -1.484495,
           "inventory": -3,
           "cash": 299.03074
         },
         {
-          "equity": -1.534445,
+          "equity": -1.524466,
           "inventory": -4,
           "cash": 398.730769
         },
         {
-          "equity": -1.494445,
+          "equity": -1.484466,
           "inventory": -4,
           "cash": 398.730769
         },
         {
-          "equity": -1.534445,
+          "equity": -1.524466,
           "inventory": -4,
           "cash": 398.730769
         },
         {
-          "equity": -1.504415,
+          "equity": -1.494436,
           "inventory": -3,
           "cash": 299.020799
         },
         {
-          "equity": -1.504384,
+          "equity": -1.494405,
           "inventory": -2,
           "cash": 199.32083
         },
         {
-          "equity": -1.494353,
+          "equity": -1.484374,
           "inventory": -1,
           "cash": 99.620861
         },
         {
-          "equity": -1.514323,
+          "equity": -1.504344,
           "inventory": -2,
           "cash": 199.310891
         },
         {
-          "equity": -1.514294,
+          "equity": -1.504315,
           "inventory": -3,
           "cash": 299.01092
         },
         {
-          "equity": -1.514265,
+          "equity": -1.504286,
           "inventory": -4,
           "cash": 398.710949
         },
         {
-          "equity": -1.474265,
+          "equity": -1.464286,
           "inventory": -4,
           "cash": 398.710949
         },
         {
-          "equity": -1.514236,
+          "equity": -1.504257,
           "inventory": -5,
           "cash": 498.410978
         },
         {
-          "equity": -1.474205,
+          "equity": -1.464226,
           "inventory": -4,
           "cash": 398.711009
         },
         {
-          "equity": -1.444173,
+          "equity": -1.434194,
           "inventory": -3,
           "cash": 299.021041
         },
         {
-          "equity": -1.474173,
+          "equity": -1.464194,
           "inventory": -3,
           "cash": 299.021041
         },
         {
-          "equity": -1.504173,
+          "equity": -1.494194,
           "inventory": -3,
           "cash": 299.021041
         },
         {
-          "equity": -1.464144,
+          "equity": -1.454165,
           "inventory": -4,
           "cash": 398.72107
         },
         {
-          "equity": -1.464114,
+          "equity": -1.454135,
           "inventory": -5,
           "cash": 498.4111
         },
         {
-          "equity": -1.424082,
+          "equity": -1.414103,
           "inventory": -4,
           "cash": 398.721132
         },
         {
-          "equity": -1.474051,
+          "equity": -1.464072,
           "inventory": -5,
           "cash": 498.401163
         },
         {
-          "equity": -1.524051,
+          "equity": -1.514072,
           "inventory": -5,
           "cash": 498.401163
         },
         {
-          "equity": -1.52402,
+          "equity": -1.514041,
           "inventory": -4,
           "cash": 398.701194
         },
         {
-          "equity": -1.523991,
+          "equity": -1.514012,
           "inventory": -5,
           "cash": 498.401223
         },
         {
-          "equity": -1.523962,
+          "equity": -1.513983,
           "inventory": -6,
           "cash": 598.101252
         },
         {
-          "equity": -1.533932,
+          "equity": -1.523953,
           "inventory": -5,
           "cash": 498.391282
         },
         {
-          "equity": -1.593903,
+          "equity": -1.583924,
           "inventory": -6,
           "cash": 598.091311
         },
         {
-          "equity": -1.533903,
+          "equity": -1.523924,
           "inventory": -6,
           "cash": 598.091311
         },
         {
-          "equity": -1.493873,
+          "equity": -1.483894,
           "inventory": -5,
           "cash": 498.381341
         },
         {
-          "equity": -1.493841,
+          "equity": -1.483862,
           "inventory": -4,
           "cash": 398.691373
         },
         {
-          "equity": -1.533841,
+          "equity": -1.523862,
           "inventory": -4,
           "cash": 398.691373
         },
         {
-          "equity": -1.543811,
+          "equity": -1.533832,
           "inventory": -3,
           "cash": 298.981403
         },
         {
-          "equity": -1.513811,
+          "equity": -1.503832,
           "inventory": -3,
           "cash": 298.981403
         },
         {
-          "equity": -1.543811,
+          "equity": -1.533832,
           "inventory": -3,
           "cash": 298.981403
         },
         {
-          "equity": -1.533781,
+          "equity": -1.523802,
           "inventory": -2,
           "cash": 199.271433
         },
         {
-          "equity": -1.553781,
+          "equity": -1.543802,
           "inventory": -2,
           "cash": 199.271433
         },
         {
-          "equity": -1.553752,
+          "equity": -1.543773,
           "inventory": -3,
           "cash": 298.971462
         },
         {
-          "equity": -1.553721,
+          "equity": -1.543742,
           "inventory": -2,
           "cash": 199.271493
         },
         {
-          "equity": -1.533721,
+          "equity": -1.523742,
           "inventory": -2,
           "cash": 199.271493
         },
         {
-          "equity": -1.533721,
+          "equity": -1.523742,
           "inventory": -2,
           "cash": 199.271493
         },
         {
-          "equity": -1.533691,
+          "equity": -1.523712,
           "inventory": -3,
           "cash": 298.961523
         },
         {
-          "equity": -1.503691,
+          "equity": -1.493712,
           "inventory": -3,
           "cash": 298.961523
         },
         {
-          "equity": -1.54366,
+          "equity": -1.533681,
           "inventory": -4,
           "cash": 398.641554
         },
         {
-          "equity": -1.513628,
+          "equity": -1.503649,
           "inventory": -3,
           "cash": 298.951586
         },
         {
-          "equity": -1.543628,
+          "equity": -1.533649,
           "inventory": -3,
           "cash": 298.951586
         },
         {
-          "equity": -1.543598,
+          "equity": -1.533619,
           "inventory": -4,
           "cash": 398.641616
         },
         {
-          "equity": -1.503598,
+          "equity": -1.493619,
           "inventory": -4,
           "cash": 398.641616
         },
         {
-          "equity": -1.463598,
+          "equity": -1.453619,
           "inventory": -4,
           "cash": 398.641616
         },
         {
-          "equity": -1.433564,
+          "equity": -1.423585,
           "inventory": -3,
           "cash": 298.97165
         },
         {
-          "equity": -1.48353,
+          "equity": -1.473551,
           "inventory": -4,
           "cash": 398.621684
         },
         {
-          "equity": -1.483496,
+          "equity": -1.473517,
           "inventory": -3,
           "cash": 298.951718
         },
         {
-          "equity": -1.453461,
+          "equity": -1.443482,
           "inventory": -2,
           "cash": 199.291753
         },
         {
-          "equity": -1.453461,
+          "equity": -1.443482,
           "inventory": -2,
           "cash": 199.291753
         },
         {
-          "equity": -1.453461,
+          "equity": -1.443482,
           "inventory": -2,
           "cash": 199.291753
         },
         {
-          "equity": -1.493427,
+          "equity": -1.483448,
           "inventory": -3,
           "cash": 298.941787
         },
         {
-          "equity": -1.463392,
+          "equity": -1.453413,
           "inventory": -2,
           "cash": 199.281822
         },
         {
-          "equity": -1.483392,
+          "equity": -1.473413,
           "inventory": -2,
           "cash": 199.281822
         },
         {
-          "equity": -1.483392,
+          "equity": -1.473413,
           "inventory": -2,
           "cash": 199.281822
         },
         {
-          "equity": -1.483358,
+          "equity": -1.473379,
           "inventory": -1,
           "cash": 99.611856
         },
         {
-          "equity": -1.483358,
+          "equity": -1.473379,
           "inventory": -1,
           "cash": 99.611856
         },
         {
-          "equity": -1.493325,
+          "equity": -1.483346,
           "inventory": -2,
           "cash": 199.271889
         },
         {
-          "equity": -1.483291,
+          "equity": -1.473312,
           "inventory": -1,
           "cash": 99.601923
         },
         {
-          "equity": -1.483291,
+          "equity": -1.473312,
           "inventory": -1,
           "cash": 99.601923
         },
         {
-          "equity": -1.483256,
+          "equity": -1.473277,
           "inventory": 0,
           "cash": -0.058042
         },
         {
-          "equity": -1.48322,
+          "equity": -1.473241,
           "inventory": 1,
           "cash": -99.708006
         },
         {
-          "equity": -1.483186,
+          "equity": -1.473207,
           "inventory": 0,
           "cash": -0.057972
         },
         {
-          "equity": -1.483186,
+          "equity": -1.473207,
           "inventory": 0,
           "cash": -0.057972
         },
         {
-          "equity": -1.483154,
+          "equity": -1.473175,
           "inventory": -1,
           "cash": 99.61206
         },
         {
-          "equity": -1.463122,
+          "equity": -1.453143,
           "inventory": -2,
           "cash": 199.282092
         },
         {
-          "equity": -1.463087,
+          "equity": -1.453108,
           "inventory": -1,
           "cash": 99.622127
         },
         {
-          "equity": -1.463052,
+          "equity": -1.453073,
           "inventory": 0,
           "cash": -0.037838
         },
         {
-          "equity": -1.463017,
+          "equity": -1.453038,
           "inventory": 1,
           "cash": -99.697803
         },
         {
-          "equity": -1.462982,
+          "equity": -1.453003,
           "inventory": 2,
           "cash": -199.357768
         },
         {
-          "equity": -1.452949,
+          "equity": -1.44297,
           "inventory": 1,
           "cash": -99.697735
         },
         {
-          "equity": -1.462949,
+          "equity": -1.45297,
           "inventory": 1,
           "cash": -99.697735
         },
         {
-          "equity": -1.462916,
+          "equity": -1.452937,
           "inventory": 0,
           "cash": -0.037702
         },
         {
-          "equity": -1.462916,
+          "equity": -1.452937,
           "inventory": 0,
           "cash": -0.037702
         },
         {
-          "equity": -1.47288,
+          "equity": -1.462901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.47288,
+          "equity": -1.462901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.46288,
+          "equity": -1.452901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.47288,
+          "equity": -1.462901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.46288,
+          "equity": -1.452901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.46288,
+          "equity": -1.452901,
           "inventory": 1,
           "cash": -99.687666
         },
         {
-          "equity": -1.452847,
+          "equity": -1.442868,
           "inventory": 0,
           "cash": -0.027633
         },
         {
-          "equity": -1.452815,
+          "equity": -1.442836,
           "inventory": -1,
           "cash": 99.642399
         },
         {
-          "equity": -1.452815,
+          "equity": -1.442836,
           "inventory": -1,
           "cash": 99.642399
         },
         {
-          "equity": -1.452815,
+          "equity": -1.442836,
           "inventory": -1,
           "cash": 99.642399
         },
         {
-          "equity": -1.442784,
+          "equity": -1.432805,
           "inventory": -2,
           "cash": 199.32243
         },
         {
-          "equity": -1.44275,
+          "equity": -1.432771,
           "inventory": -1,
           "cash": 99.652464
         },
         {
-          "equity": -1.462718,
+          "equity": -1.452739,
           "inventory": -2,
           "cash": 199.322496
         },
         {
-          "equity": -1.462687,
+          "equity": -1.452708,
           "inventory": -3,
           "cash": 299.002527
         },
         {
-          "equity": -1.492657,
+          "equity": -1.482678,
           "inventory": -4,
           "cash": 398.692557
         },
         {
-          "equity": -1.502626,
+          "equity": -1.492647,
           "inventory": -3,
           "cash": 298.992588
         },
         {
-          "equity": -1.502594,
+          "equity": -1.492615,
           "inventory": -2,
           "cash": 199.30262
         },
         {
-          "equity": -1.482594,
+          "equity": -1.472615,
           "inventory": -2,
           "cash": 199.30262
         },
         {
-          "equity": -1.452563,
+          "equity": -1.442584,
           "inventory": -3,
           "cash": 298.982651
         },
         {
-          "equity": -1.492531,
+          "equity": -1.482552,
           "inventory": -4,
           "cash": 398.652683
         },
         {
-          "equity": -1.532499,
+          "equity": -1.52252,
           "inventory": -3,
           "cash": 298.962715
         },
         {
-          "equity": -1.502499,
+          "equity": -1.49252,
           "inventory": -3,
           "cash": 298.962715
         },
         {
-          "equity": -1.502499,
+          "equity": -1.49252,
           "inventory": -3,
           "cash": 298.962715
         },
         {
-          "equity": -1.502468,
+          "equity": -1.492489,
           "inventory": -4,
           "cash": 398.642746
         },
         {
-          "equity": -1.552437,
+          "equity": -1.542458,
           "inventory": -5,
           "cash": 498.322777
         },
         {
-          "equity": -1.612407,
+          "equity": -1.602428,
           "inventory": -6,
           "cash": 598.012807
         },
         {
-          "equity": -1.672407,
+          "equity": -1.662428,
           "inventory": -6,
           "cash": 598.012807
         },
         {
-          "equity": -1.612407,
+          "equity": -1.602428,
           "inventory": -6,
           "cash": 598.012807
         },
         {
-          "equity": -1.572377,
+          "equity": -1.562398,
           "inventory": -5,
           "cash": 498.302837
         },
         {
-          "equity": -1.612345,
+          "equity": -1.602366,
           "inventory": -4,
           "cash": 398.612869
         },
         {
-          "equity": -1.612316,
+          "equity": -1.602337,
           "inventory": -5,
           "cash": 498.312898
         },
         {
-          "equity": -1.612287,
+          "equity": -1.602308,
           "inventory": -6,
           "cash": 598.012927
         },
         {
-          "equity": -1.572257,
+          "equity": -1.562278,
           "inventory": -5,
           "cash": 498.302957
         },
         {
-          "equity": -1.522257,
+          "equity": -1.512278,
           "inventory": -5,
           "cash": 498.302957
         },
         {
-          "equity": -1.512223,
+          "equity": -1.502244,
           "inventory": -4,
           "cash": 398.632991
         },
         {
-          "equity": -1.51219,
+          "equity": -1.502211,
           "inventory": -3,
           "cash": 298.953024
         },
         {
-          "equity": -1.522158,
+          "equity": -1.512179,
           "inventory": -4,
           "cash": 398.623056
         },
         {
-          "equity": -1.522158,
+          "equity": -1.512179,
           "inventory": -4,
           "cash": 398.623056
         },
         {
-          "equity": -1.482158,
+          "equity": -1.472179,
           "inventory": -4,
           "cash": 398.623056
         },
         {
-          "equity": -1.482126,
+          "equity": -1.472147,
           "inventory": -5,
           "cash": 498.293088
         },
         {
-          "equity": -1.482126,
+          "equity": -1.472147,
           "inventory": -5,
           "cash": 498.293088
         },
         {
-          "equity": -1.482126,
+          "equity": -1.472147,
           "inventory": -5,
           "cash": 498.293088
         },
         {
-          "equity": -1.432091,
+          "equity": -1.422112,
           "inventory": -4,
           "cash": 398.633123
         },
         {
-          "equity": -1.392055,
+          "equity": -1.382076,
           "inventory": -3,
           "cash": 298.983159
         },
         {
-          "equity": -1.392055,
+          "equity": -1.382076,
           "inventory": -3,
           "cash": 298.983159
         },
         {
-          "equity": -1.392055,
+          "equity": -1.382076,
           "inventory": -3,
           "cash": 298.983159
         },
         {
-          "equity": -1.422055,
+          "equity": -1.412076,
           "inventory": -3,
           "cash": 298.983159
         },
         {
-          "equity": -1.392019,
+          "equity": -1.38204,
           "inventory": -2,
           "cash": 199.333195
         },
         {
-          "equity": -1.371984,
+          "equity": -1.362005,
           "inventory": -3,
           "cash": 298.97323
         },
         {
-          "equity": -1.371984,
+          "equity": -1.362005,
           "inventory": -3,
           "cash": 298.97323
         },
         {
-          "equity": -1.371984,
+          "equity": -1.362005,
           "inventory": -3,
           "cash": 298.97323
         },
         {
-          "equity": -1.341948,
+          "equity": -1.331969,
           "inventory": -4,
           "cash": 398.603266
         },
         {
-          "equity": -1.301909,
+          "equity": -1.29193,
           "inventory": -3,
           "cash": 298.983305
         },
         {
-          "equity": -1.261872,
+          "equity": -1.251893,
           "inventory": -4,
           "cash": 398.603342
         },
         {
-          "equity": -1.221872,
+          "equity": -1.211893,
           "inventory": -4,
           "cash": 398.603342
         },
         {
-          "equity": -1.181872,
+          "equity": -1.171893,
           "inventory": -4,
           "cash": 398.603342
         },
         {
-          "equity": -1.141829,
+          "equity": -1.13185,
           "inventory": -3,
           "cash": 299.023385
         },
         {
-          "equity": -1.111785,
+          "equity": -1.101806,
           "inventory": -2,
           "cash": 199.453429
         },
         {
-          "equity": -1.09174,
+          "equity": -1.081761,
           "inventory": -1,
           "cash": 99.893474
         },
         {
-          "equity": -1.081694,
+          "equity": -1.071715,
           "inventory": 0,
           "cash": 0.34352
         },
         {
-          "equity": -1.09165,
+          "equity": -1.081671,
           "inventory": -1,
           "cash": 99.893564
         },
         {
-          "equity": -1.081606,
+          "equity": -1.071627,
           "inventory": -2,
           "cash": 199.443608
         },
         {
-          "equity": -1.08156,
+          "equity": -1.071581,
           "inventory": -1,
           "cash": 99.893654
         },
         {
-          "equity": -1.071513,
+          "equity": -1.061534,
           "inventory": 0,
           "cash": 0.353701
         },
         {
-          "equity": -1.071466,
+          "equity": -1.061487,
           "inventory": 1,
           "cash": -99.186252
         },
         {
-          "equity": -1.061466,
+          "equity": -1.051487,
           "inventory": 1,
           "cash": -99.186252
         },
         {
-          "equity": -1.06142,
+          "equity": -1.051441,
           "inventory": 2,
           "cash": -198.736206
         },
         {
-          "equity": -1.061374,
+          "equity": -1.051395,
           "inventory": 3,
           "cash": -298.28616
         },
         {
-          "equity": -1.031374,
+          "equity": -1.021395,
           "inventory": 3,
           "cash": -298.28616
         },
         {
-          "equity": -1.031329,
+          "equity": -1.02135,
           "inventory": 4,
           "cash": -397.846115
         },
         {
-          "equity": -1.001286,
+          "equity": -0.991307,
           "inventory": 3,
           "cash": -298.286072
         },
         {
-          "equity": -0.971286,
+          "equity": -0.961307,
           "inventory": 3,
           "cash": -298.286072
         },
         {
-          "equity": -1.011243,
+          "equity": -1.001264,
           "inventory": 4,
           "cash": -397.866029
         },
         {
-          "equity": -1.011243,
+          "equity": -1.001264,
           "inventory": 4,
           "cash": -397.866029
         },
         {
-          "equity": -0.971243,
+          "equity": -0.961264,
           "inventory": 4,
           "cash": -397.866029
         },
         {
-          "equity": -0.941202,
+          "equity": -0.931223,
           "inventory": 3,
           "cash": -298.285988
         },
         {
-          "equity": -0.971202,
+          "equity": -0.961223,
           "inventory": 3,
           "cash": -298.285988
         },
         {
-          "equity": -0.971159,
+          "equity": -0.96118,
           "inventory": 4,
           "cash": -397.865945
         },
         {
-          "equity": -0.971116,
+          "equity": -0.961137,
           "inventory": 5,
           "cash": -497.445902
         },
         {
-          "equity": -0.931075,
+          "equity": -0.921096,
           "inventory": 4,
           "cash": -397.865861
         },
         {
-          "equity": -0.971075,
+          "equity": -0.961096,
           "inventory": 4,
           "cash": -397.865861
         },
         {
-          "equity": -1.011033,
+          "equity": -1.001054,
           "inventory": 3,
           "cash": -298.295819
         },
         {
-          "equity": -0.981033,
+          "equity": -0.971054,
           "inventory": 3,
           "cash": -298.295819
         },
         {
-          "equity": -0.951033,
+          "equity": -0.941054,
           "inventory": 3,
           "cash": -298.295819
         },
         {
-          "equity": -0.970993,
+          "equity": -0.961014,
           "inventory": 2,
           "cash": -198.705779
         },
         {
-          "equity": -1.00095,
+          "equity": -0.990971,
           "inventory": 3,
           "cash": -298.285736
         },
         {
-          "equity": -1.010907,
+          "equity": -1.000928,
           "inventory": 2,
           "cash": -198.725693
         },
         {
-          "equity": -1.010863,
+          "equity": -1.000884,
           "inventory": 3,
           "cash": -298.295649
         },
         {
-          "equity": -0.990821,
+          "equity": -0.980842,
           "inventory": 2,
           "cash": -198.725607
         },
         {
-          "equity": -0.970821,
+          "equity": -0.960842,
           "inventory": 2,
           "cash": -198.725607
         },
         {
-          "equity": -0.970779,
+          "equity": -0.9608,
           "inventory": 3,
           "cash": -298.315565
         },
         {
-          "equity": -0.970737,
+          "equity": -0.960758,
           "inventory": 4,
           "cash": -397.905523
         },
         {
-          "equity": -0.940697,
+          "equity": -0.930718,
           "inventory": 3,
           "cash": -298.315483
         },
         {
-          "equity": -0.940658,
+          "equity": -0.930679,
           "inventory": 2,
           "cash": -198.715444
         },
         {
-          "equity": -0.950619,
+          "equity": -0.94064,
           "inventory": 1,
           "cash": -99.115405
         },
         {
-          "equity": -0.950579,
+          "equity": -0.9406,
           "inventory": 0,
           "cash": 0.474635
         },
         {
-          "equity": -0.950579,
+          "equity": -0.9406,
           "inventory": 0,
           "cash": 0.474635
         },
         {
-          "equity": -0.950536,
+          "equity": -0.940557,
           "inventory": 1,
           "cash": -99.105322
         },
         {
-          "equity": -0.970493,
+          "equity": -0.960514,
           "inventory": 2,
           "cash": -198.685279
         },
         {
-          "equity": -0.970451,
+          "equity": -0.960472,
           "inventory": 1,
           "cash": -99.115237
         },
         {
-          "equity": -0.980451,
+          "equity": -0.970472,
           "inventory": 1,
           "cash": -99.115237
         },
         {
-          "equity": -0.980408,
+          "equity": -0.970429,
           "inventory": 0,
           "cash": 0.444806
         },
         {
-          "equity": -0.980408,
+          "equity": -0.970429,
           "inventory": 0,
           "cash": 0.444806
         },
         {
-          "equity": -0.980363,
+          "equity": -0.970384,
           "inventory": 1,
           "cash": -99.115149
         },
         {
-          "equity": -0.990363,
+          "equity": -0.980384,
           "inventory": 1,
           "cash": -99.115149
         },
         {
-          "equity": -0.98032,
+          "equity": -0.970341,
           "inventory": 0,
           "cash": 0.444894
         },
         {
-          "equity": -0.980276,
+          "equity": -0.970297,
           "inventory": 1,
           "cash": -99.125062
         },
         {
-          "equity": -0.970235,
+          "equity": -0.960256,
           "inventory": 0,
           "cash": 0.454979
         },
         {
-          "equity": -0.980193,
+          "equity": -0.970214,
           "inventory": 1,
           "cash": -99.134979
         },
         {
-          "equity": -0.96015,
+          "equity": -0.950171,
           "inventory": 2,
           "cash": -198.714936
         },
         {
-          "equity": -0.96011,
+          "equity": -0.950131,
           "inventory": 1,
           "cash": -99.124896
         },
         {
-          "equity": -0.97011,
+          "equity": -0.960131,
           "inventory": 1,
           "cash": -99.124896
         },
         {
-          "equity": -0.98011,
+          "equity": -0.970131,
           "inventory": 1,
           "cash": -99.124896
         },
         {
-          "equity": -1.000066,
+          "equity": -0.990087,
           "inventory": 2,
           "cash": -198.694852
         },
         {
-          "equity": -1.000023,
+          "equity": -0.990044,
           "inventory": 1,
           "cash": -99.134809
         },
         {
-          "equity": -1.019978,
+          "equity": -1.009999,
           "inventory": 2,
           "cash": -198.694764
         },
         {
-          "equity": -1.039931,
+          "equity": -1.029952,
           "inventory": 3,
           "cash": -298.234717
         },
         {
-          "equity": -1.069883,
+          "equity": -1.059904,
           "inventory": 4,
           "cash": -397.764669
         },
         {
-          "equity": -1.109836,
+          "equity": -1.099857,
           "inventory": 3,
           "cash": -298.244622
         },
         {
-          "equity": -1.109836,
+          "equity": -1.099857,
           "inventory": 3,
           "cash": -298.244622
         },
         {
-          "equity": -1.109787,
+          "equity": -1.099808,
           "inventory": 4,
           "cash": -397.764573
         },
         {
-          "equity": -1.159738,
+          "equity": -1.149759,
           "inventory": 5,
           "cash": -497.284524
         },
         {
-          "equity": -1.159738,
+          "equity": -1.149759,
           "inventory": 5,
           "cash": -497.284524
         },
         {
-          "equity": -1.159688,
+          "equity": -1.139708,
           "inventory": 6,
-          "cash": -596.794474
+          "cash": -596.784473
         },
         {
-          "equity": -1.159688,
+          "equity": -1.139708,
           "inventory": 6,
-          "cash": -596.794474
+          "cash": -596.784473
         },
         {
-          "equity": -1.099688,
+          "equity": -1.079708,
           "inventory": 6,
-          "cash": -596.794474
+          "cash": -596.784473
         }
       ]
     },
     {
       "strategy": "signal",
       "fill": "through",
-      "pnl": -3.18008,
+      "pnl": -3.19013,
       "drawdown": 3.2606800000000002,
-      "fills": 238,
-      "fill_rate": 0.16596931659693165,
+      "fills": 237,
+      "fill_rate": 0.16527196652719664,
       "max_inventory": 7,
-      "turnover": 23800.8,
-      "fees": 2.38008,
+      "turnover": 23701.3,
+      "fees": 2.37013,
       "sessions": [
         {
           "session": "session-10",
@@ -26109,15 +26109,15 @@
         },
         {
           "session": "session-12",
-          "pnl": -0.627305,
+          "pnl": -0.637355,
           "drawdown": 0.677506,
           "max_inventory": 7,
-          "fills": 76,
+          "fills": 75,
           "opportunities": 478,
-          "fill_rate": 0.1589958158995816,
-          "turnover": 7573.05,
-          "fees": 0.757305,
-          "mean_markout": 0.0042105263157894745
+          "fill_rate": 0.15690376569037656,
+          "turnover": 7473.55,
+          "fees": 0.747355,
+          "mean_markout": 0.004000000000000001
         }
       ],
       "curve": [
@@ -29707,44 +29707,44 @@
           "cash": -299.197355
         },
         {
-          "equity": -3.22008,
-          "inventory": 4,
-          "cash": -398.707305
+          "equity": -3.22013,
+          "inventory": 3,
+          "cash": -299.197355
         },
         {
-          "equity": -3.22008,
-          "inventory": 4,
-          "cash": -398.707305
+          "equity": -3.22013,
+          "inventory": 3,
+          "cash": -299.197355
         },
         {
-          "equity": -3.18008,
-          "inventory": 4,
-          "cash": -398.707305
+          "equity": -3.19013,
+          "inventory": 3,
+          "cash": -299.197355
         }
       ]
     },
     {
       "strategy": "signal",
       "fill": "queue",
-      "pnl": 0.080391,
-      "drawdown": 0.9540690000000001,
-      "fills": 244,
-      "fill_rate": 0.1701534170153417,
+      "pnl": 0.100371,
+      "drawdown": 0.9440900000000001,
+      "fills": 243,
+      "fill_rate": 0.1694560669456067,
       "max_inventory": 9,
-      "turnover": 24396.09,
-      "fees": 2.439609,
+      "turnover": 24296.29,
+      "fees": 2.429629,
       "sessions": [
         {
           "session": "session-10",
-          "pnl": 0.242576,
+          "pnl": 0.252555,
           "drawdown": 0.329674,
           "max_inventory": 7,
-          "fills": 93,
+          "fills": 92,
           "opportunities": 478,
-          "fill_rate": 0.19456066945606695,
-          "turnover": 9274.24,
-          "fees": 0.927424,
-          "mean_markout": 0.005698924731182796
+          "fill_rate": 0.19246861924686193,
+          "turnover": 9174.45,
+          "fees": 0.917445,
+          "mean_markout": 0.005760869565217391
         },
         {
           "session": "session-11",
@@ -29760,15 +29760,15 @@
         },
         {
           "session": "session-12",
-          "pnl": 0.552746,
+          "pnl": 0.562747,
           "drawdown": 0.339784,
           "max_inventory": 9,
           "fills": 77,
           "opportunities": 478,
           "fill_rate": 0.16108786610878661,
-          "turnover": 7672.54,
-          "fees": 0.767254,
-          "mean_markout": 0.006883116883116885
+          "turnover": 7672.53,
+          "fees": 0.767253,
+          "mean_markout": 0.007012987012987015
         }
       ],
       "curve": [
@@ -30958,2419 +30958,2419 @@
           "cash": 100.032536
         },
         {
-          "equity": 0.232557,
-          "inventory": 0,
-          "cash": 0.232557
-        },
-        {
-          "equity": 0.232576,
+          "equity": 0.232536,
           "inventory": -1,
-          "cash": 100.032576
+          "cash": 100.032536
         },
         {
-          "equity": 0.242576,
-          "inventory": -1,
-          "cash": 100.032576
+          "equity": 0.232555,
+          "inventory": -2,
+          "cash": 199.832555
         },
         {
-          "equity": 0.242576,
+          "equity": 0.252555,
+          "inventory": -2,
+          "cash": 199.832555
+        },
+        {
+          "equity": 0.252555,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": 0.242517,
+          "equity": 0.252496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.242517,
+          "equity": 0.252496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.232517,
+          "equity": 0.242496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.242517,
+          "equity": 0.252496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.242517,
+          "equity": 0.252496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.252517,
+          "equity": 0.262496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.252517,
+          "equity": 0.262496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.262517,
+          "equity": 0.272496,
           "inventory": 1,
           "cash": -100.600059
         },
         {
-          "equity": 0.262454,
+          "equity": 0.272433,
           "inventory": 0,
           "cash": 0.019878
         },
         {
-          "equity": 0.262454,
+          "equity": 0.272433,
           "inventory": 0,
           "cash": 0.019878
         },
         {
-          "equity": 0.262454,
+          "equity": 0.272433,
           "inventory": 0,
           "cash": 0.019878
         },
         {
-          "equity": 0.262394,
+          "equity": 0.272373,
           "inventory": 1,
           "cash": -100.590182
         },
         {
-          "equity": 0.262334,
+          "equity": 0.272313,
           "inventory": 2,
           "cash": -201.200242
         },
         {
-          "equity": 0.242275,
+          "equity": 0.252254,
           "inventory": 3,
           "cash": -301.800301
         },
         {
-          "equity": 0.212275,
+          "equity": 0.222254,
           "inventory": 3,
           "cash": -301.800301
         },
         {
-          "equity": 0.182275,
+          "equity": 0.192254,
           "inventory": 3,
           "cash": -301.800301
         },
         {
-          "equity": 0.182275,
+          "equity": 0.192254,
           "inventory": 3,
           "cash": -301.800301
         },
         {
-          "equity": 0.192219,
+          "equity": 0.202198,
           "inventory": 4,
           "cash": -402.370357
         },
         {
-          "equity": 0.152219,
+          "equity": 0.162198,
           "inventory": 4,
           "cash": -402.370357
         },
         {
-          "equity": 0.152219,
+          "equity": 0.162198,
           "inventory": 4,
           "cash": -402.370357
         },
         {
-          "equity": 0.112219,
+          "equity": 0.122198,
           "inventory": 4,
           "cash": -402.370357
         },
         {
-          "equity": 0.112162,
+          "equity": 0.122141,
           "inventory": 3,
           "cash": -301.810414
         },
         {
-          "equity": 0.082162,
+          "equity": 0.092141,
           "inventory": 3,
           "cash": -301.810414
         },
         {
-          "equity": 0.082106,
+          "equity": 0.092085,
           "inventory": 2,
           "cash": -201.26047
         },
         {
-          "equity": 0.102106,
+          "equity": 0.112085,
           "inventory": 2,
           "cash": -201.26047
         },
         {
-          "equity": 0.072051,
+          "equity": 0.08203,
           "inventory": 3,
           "cash": -301.820525
         },
         {
-          "equity": 0.071997,
+          "equity": 0.081976,
           "inventory": 4,
           "cash": -402.370579
         },
         {
-          "equity": 0.111997,
+          "equity": 0.121976,
           "inventory": 4,
           "cash": -402.370579
         },
         {
-          "equity": 0.071943,
+          "equity": 0.081922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.071943,
+          "equity": 0.081922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.021943,
+          "equity": 0.031922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.071943,
+          "equity": 0.081922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.021943,
+          "equity": 0.031922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.021943,
+          "equity": 0.031922,
           "inventory": 5,
           "cash": -502.920633
         },
         {
-          "equity": 0.021888,
+          "equity": 0.031867,
           "inventory": 4,
           "cash": -402.380688
         },
         {
-          "equity": 0.021888,
+          "equity": 0.031867,
           "inventory": 4,
           "cash": -402.380688
         },
         {
-          "equity": -0.018112,
+          "equity": -0.008133,
           "inventory": 4,
           "cash": -402.380688
         },
         {
-          "equity": -0.018112,
+          "equity": -0.008133,
           "inventory": 4,
           "cash": -402.380688
         },
         {
-          "equity": -0.018166,
+          "equity": -0.008187,
           "inventory": 3,
           "cash": -301.850742
         },
         {
-          "equity": -0.048166,
+          "equity": -0.038187,
           "inventory": 3,
           "cash": -301.850742
         },
         {
-          "equity": -0.068219,
+          "equity": -0.05824,
           "inventory": 2,
           "cash": -201.330795
         },
         {
-          "equity": -0.088219,
+          "equity": -0.07824,
           "inventory": 2,
           "cash": -201.330795
         },
         {
-          "equity": -0.088219,
+          "equity": -0.07824,
           "inventory": 2,
           "cash": -201.330795
         },
         {
-          "equity": -0.088219,
+          "equity": -0.07824,
           "inventory": 2,
           "cash": -201.330795
         },
         {
-          "equity": -0.088219,
+          "equity": -0.07824,
           "inventory": 2,
           "cash": -201.330795
         },
         {
-          "equity": -0.088268,
+          "equity": -0.078289,
           "inventory": 3,
           "cash": -301.830844
         },
         {
-          "equity": -0.058268,
+          "equity": -0.048289,
           "inventory": 3,
           "cash": -301.830844
         },
         {
-          "equity": -0.028268,
+          "equity": -0.018289,
           "inventory": 3,
           "cash": -301.830844
         },
         {
-          "equity": 0.001732,
+          "equity": 0.011711,
           "inventory": 3,
           "cash": -301.830844
         },
         {
-          "equity": 0.031677,
+          "equity": 0.041656,
           "inventory": 2,
           "cash": -201.290899
         },
         {
-          "equity": 0.031677,
+          "equity": 0.041656,
           "inventory": 2,
           "cash": -201.290899
         },
         {
-          "equity": 0.031677,
+          "equity": 0.041656,
           "inventory": 2,
           "cash": -201.290899
         },
         {
-          "equity": 0.051621,
+          "equity": 0.0616,
           "inventory": 1,
           "cash": -100.740955
         },
         {
-          "equity": 0.061564,
+          "equity": 0.071543,
           "inventory": 0,
           "cash": -0.181012
         },
         {
-          "equity": 0.061564,
+          "equity": 0.071543,
           "inventory": 0,
           "cash": -0.181012
         },
         {
-          "equity": 0.061564,
+          "equity": 0.071543,
           "inventory": 0,
           "cash": -0.181012
         },
         {
-          "equity": 0.061564,
+          "equity": 0.071543,
           "inventory": 0,
           "cash": -0.181012
         },
         {
-          "equity": 0.051507,
+          "equity": 0.061486,
           "inventory": 1,
           "cash": -100.761069
         },
         {
-          "equity": 0.051507,
+          "equity": 0.061486,
           "inventory": 1,
           "cash": -100.761069
         },
         {
-          "equity": 0.061507,
+          "equity": 0.071486,
           "inventory": 1,
           "cash": -100.761069
         },
         {
-          "equity": 0.061448,
+          "equity": 0.071427,
           "inventory": 0,
           "cash": -0.181128
         },
         {
-          "equity": 0.061448,
+          "equity": 0.071427,
           "inventory": 0,
           "cash": -0.181128
         },
         {
-          "equity": 0.061448,
+          "equity": 0.071427,
           "inventory": 0,
           "cash": -0.181128
         },
         {
-          "equity": 0.06139,
+          "equity": 0.071369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.07139,
+          "equity": 0.081369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.06139,
+          "equity": 0.071369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.07139,
+          "equity": 0.081369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.08139,
+          "equity": 0.091369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.08139,
+          "equity": 0.091369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.09139,
+          "equity": 0.101369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.10139,
+          "equity": 0.111369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.10139,
+          "equity": 0.111369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.09139,
+          "equity": 0.101369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.09139,
+          "equity": 0.101369,
           "inventory": 1,
           "cash": -100.771186
         },
         {
-          "equity": 0.091327,
+          "equity": 0.101306,
           "inventory": 0,
           "cash": -0.151249
         },
         {
-          "equity": 0.091266,
+          "equity": 0.101245,
           "inventory": 1,
           "cash": -100.77131
         },
         {
-          "equity": 0.091266,
+          "equity": 0.101245,
           "inventory": 1,
           "cash": -100.77131
         },
         {
-          "equity": 0.091205,
+          "equity": 0.101184,
           "inventory": 2,
           "cash": -201.391371
         },
         {
-          "equity": 0.111205,
+          "equity": 0.121184,
           "inventory": 2,
           "cash": -201.391371
         },
         {
-          "equity": 0.111205,
+          "equity": 0.121184,
           "inventory": 2,
           "cash": -201.391371
         },
         {
-          "equity": 0.081143,
+          "equity": 0.091122,
           "inventory": 3,
           "cash": -302.021433
         },
         {
-          "equity": 0.051143,
+          "equity": 0.061122,
           "inventory": 3,
           "cash": -302.021433
         },
         {
-          "equity": 0.081143,
+          "equity": 0.091122,
           "inventory": 3,
           "cash": -302.021433
         },
         {
-          "equity": 0.111143,
+          "equity": 0.121122,
           "inventory": 3,
           "cash": -302.021433
         },
         {
-          "equity": 0.111079,
+          "equity": 0.121058,
           "inventory": 2,
           "cash": -201.391497
         },
         {
-          "equity": 0.111079,
+          "equity": 0.121058,
           "inventory": 2,
           "cash": -201.391497
         },
         {
-          "equity": 0.111079,
+          "equity": 0.121058,
           "inventory": 2,
           "cash": -201.391497
         },
         {
-          "equity": 0.121015,
+          "equity": 0.130994,
           "inventory": 1,
           "cash": -100.761561
         },
         {
-          "equity": 0.12095,
+          "equity": 0.130929,
           "inventory": 0,
           "cash": -0.121626
         },
         {
-          "equity": 0.12095,
+          "equity": 0.130929,
           "inventory": 0,
           "cash": -0.121626
         },
         {
-          "equity": 0.12095,
+          "equity": 0.130929,
           "inventory": 0,
           "cash": -0.121626
         },
         {
-          "equity": 0.12095,
+          "equity": 0.130929,
           "inventory": 0,
           "cash": -0.121626
         },
         {
-          "equity": 0.120887,
+          "equity": 0.130866,
           "inventory": 1,
           "cash": -100.761689
         },
         {
-          "equity": 0.120822,
+          "equity": 0.130801,
           "inventory": 0,
           "cash": -0.121754
         },
         {
-          "equity": 0.120822,
+          "equity": 0.130801,
           "inventory": 0,
           "cash": -0.121754
         },
         {
-          "equity": 0.120822,
+          "equity": 0.130801,
           "inventory": 0,
           "cash": -0.121754
         },
         {
-          "equity": 0.110756,
+          "equity": 0.120735,
           "inventory": -1,
           "cash": 100.52818
         },
         {
-          "equity": 0.090689,
+          "equity": 0.100668,
           "inventory": -2,
           "cash": 201.188113
         },
         {
-          "equity": 0.110689,
+          "equity": 0.120668,
           "inventory": -2,
           "cash": 201.188113
         },
         {
-          "equity": 0.110622,
+          "equity": 0.120601,
           "inventory": -3,
           "cash": 301.848046
         },
         {
-          "equity": 0.110557,
+          "equity": 0.120536,
           "inventory": -2,
           "cash": 201.187981
         },
         {
-          "equity": 0.14049,
+          "equity": 0.150469,
           "inventory": -3,
           "cash": 301.847914
         },
         {
-          "equity": 0.120426,
+          "equity": 0.130405,
           "inventory": -2,
           "cash": 201.19785
         },
         {
-          "equity": 0.120426,
+          "equity": 0.130405,
           "inventory": -2,
           "cash": 201.19785
         },
         {
-          "equity": 0.090359,
+          "equity": 0.100338,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": 0.060359,
+          "equity": 0.070338,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": 0.030359,
+          "equity": 0.040338,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": 0.030359,
+          "equity": 0.040338,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": 0.000359,
+          "equity": 0.010338,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.029641,
+          "equity": -0.019662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.029641,
+          "equity": -0.019662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.059641,
+          "equity": -0.049662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.059641,
+          "equity": -0.049662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.059641,
+          "equity": -0.049662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.089641,
+          "equity": -0.079662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.089641,
+          "equity": -0.079662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.119641,
+          "equity": -0.109662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.119641,
+          "equity": -0.109662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.149641,
+          "equity": -0.139662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.119641,
+          "equity": -0.109662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.089641,
+          "equity": -0.079662,
           "inventory": -3,
           "cash": 301.857783
         },
         {
-          "equity": -0.089713,
+          "equity": -0.079734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.069713,
+          "equity": -0.059734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.089713,
+          "equity": -0.079734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.069713,
+          "equity": -0.059734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.069713,
+          "equity": -0.059734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.089713,
+          "equity": -0.079734,
           "inventory": -2,
           "cash": 201.127711
         },
         {
-          "equity": -0.079785,
+          "equity": -0.069806,
           "inventory": -1,
           "cash": 100.397639
         },
         {
-          "equity": -0.079785,
+          "equity": -0.069806,
           "inventory": -1,
           "cash": 100.397639
         },
         {
-          "equity": -0.069785,
+          "equity": -0.059806,
           "inventory": -1,
           "cash": 100.397639
         },
         {
-          "equity": -0.069857,
+          "equity": -0.059878,
           "inventory": -2,
           "cash": 201.107567
         },
         {
-          "equity": -0.079927,
+          "equity": -0.069948,
           "inventory": -1,
           "cash": 100.397497
         },
         {
-          "equity": -0.079998,
+          "equity": -0.070019,
           "inventory": 0,
           "cash": -0.322574
         },
         {
-          "equity": -0.090071,
+          "equity": -0.080092,
           "inventory": -1,
           "cash": 100.397353
         },
         {
-          "equity": -0.090071,
+          "equity": -0.080092,
           "inventory": -1,
           "cash": 100.397353
         },
         {
-          "equity": -0.090145,
+          "equity": -0.080166,
           "inventory": -2,
           "cash": 201.127279
         },
         {
-          "equity": -0.070145,
+          "equity": -0.060166,
           "inventory": -2,
           "cash": 201.127279
         },
         {
-          "equity": -0.090145,
+          "equity": -0.080166,
           "inventory": -2,
           "cash": 201.127279
         },
         {
-          "equity": -0.090219,
+          "equity": -0.08024,
           "inventory": -3,
           "cash": 301.857205
         },
         {
-          "equity": -0.060219,
+          "equity": -0.05024,
           "inventory": -3,
           "cash": 301.857205
         },
         {
-          "equity": -0.06029,
+          "equity": -0.050311,
           "inventory": -2,
           "cash": 201.137134
         },
         {
-          "equity": -0.090363,
+          "equity": -0.080384,
           "inventory": -3,
           "cash": 301.857061
         },
         {
-          "equity": -0.120438,
+          "equity": -0.110459,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.120438,
+          "equity": -0.110459,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.080438,
+          "equity": -0.070459,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.040438,
+          "equity": -0.030459,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.000438,
+          "equity": 0.009541,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.000438,
+          "equity": 0.009541,
           "inventory": -4,
           "cash": 402.596986
         },
         {
-          "equity": -0.00051,
+          "equity": 0.009469,
           "inventory": -5,
           "cash": 503.306914
         },
         {
-          "equity": 0.04949,
+          "equity": 0.059469,
           "inventory": -5,
           "cash": 503.306914
         },
         {
-          "equity": 0.089421,
+          "equity": 0.0994,
           "inventory": -4,
           "cash": 402.606845
         },
         {
-          "equity": 0.049421,
+          "equity": 0.0594,
           "inventory": -4,
           "cash": 402.606845
         },
         {
-          "equity": 0.049421,
+          "equity": 0.0594,
           "inventory": -4,
           "cash": 402.606845
         },
         {
-          "equity": 0.009421,
+          "equity": 0.0194,
           "inventory": -4,
           "cash": 402.606845
         },
         {
-          "equity": 0.009349,
+          "equity": 0.019328,
           "inventory": -5,
           "cash": 503.316773
         },
         {
-          "equity": 0.009349,
+          "equity": 0.019328,
           "inventory": -5,
           "cash": 503.316773
         },
         {
-          "equity": -0.040651,
+          "equity": -0.030672,
           "inventory": -5,
           "cash": 503.316773
         },
         {
-          "equity": -0.090725,
+          "equity": -0.080746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.150725,
+          "equity": -0.140746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.150725,
+          "equity": -0.140746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.090725,
+          "equity": -0.080746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.090725,
+          "equity": -0.080746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.090725,
+          "equity": -0.080746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.030725,
+          "equity": -0.020746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": -0.030725,
+          "equity": -0.020746,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.029275,
+          "equity": 0.039254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.089275,
+          "equity": 0.099254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.149275,
+          "equity": 0.159254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.089275,
+          "equity": 0.099254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.149275,
+          "equity": 0.159254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.149275,
+          "equity": 0.159254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.209275,
+          "equity": 0.219254,
           "inventory": -6,
           "cash": 604.046699
         },
         {
-          "equity": 0.219205,
+          "equity": 0.229184,
           "inventory": -7,
           "cash": 704.736629
         },
         {
-          "equity": 0.219205,
+          "equity": 0.229184,
           "inventory": -7,
           "cash": 704.736629
         },
         {
-          "equity": 0.149137,
+          "equity": 0.159116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.149137,
+          "equity": 0.159116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.089137,
+          "equity": 0.099116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.089137,
+          "equity": 0.099116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.029137,
+          "equity": 0.039116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.089137,
+          "equity": 0.099116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.149137,
+          "equity": 0.159116,
           "inventory": -6,
           "cash": 604.046561
         },
         {
-          "equity": 0.089066,
+          "equity": 0.099045,
           "inventory": -7,
           "cash": 704.74649
         },
         {
-          "equity": 0.019066,
+          "equity": 0.029045,
           "inventory": -7,
           "cash": 704.74649
         },
         {
-          "equity": -0.051007,
+          "equity": -0.041028,
           "inventory": -8,
           "cash": 805.466417
         },
         {
-          "equity": -0.061079,
+          "equity": -0.0511,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": -0.061079,
+          "equity": -0.0511,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": -0.061079,
+          "equity": -0.0511,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": 0.008921,
+          "equity": 0.0189,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": 0.008921,
+          "equity": 0.0189,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": 0.008921,
+          "equity": 0.0189,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": 0.008921,
+          "equity": 0.0189,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": 0.008921,
+          "equity": 0.0189,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": -0.061079,
+          "equity": -0.0511,
           "inventory": -7,
           "cash": 704.736345
         },
         {
-          "equity": -0.011151,
+          "equity": -0.001172,
           "inventory": -6,
           "cash": 604.006273
         },
         {
-          "equity": -0.071151,
+          "equity": -0.061172,
           "inventory": -6,
           "cash": 604.006273
         },
         {
-          "equity": -0.131151,
+          "equity": -0.121172,
           "inventory": -6,
           "cash": 604.006273
         },
         {
-          "equity": -0.191224,
+          "equity": -0.181245,
           "inventory": -5,
           "cash": 503.2662
         },
         {
-          "equity": -0.241224,
+          "equity": -0.231245,
           "inventory": -5,
           "cash": 503.2662
         },
         {
-          "equity": -0.291224,
+          "equity": -0.281245,
           "inventory": -5,
           "cash": 503.2662
         },
         {
-          "equity": -0.291301,
+          "equity": -0.281322,
           "inventory": -6,
           "cash": 604.026123
         },
         {
-          "equity": -0.231301,
+          "equity": -0.221322,
           "inventory": -6,
           "cash": 604.026123
         },
         {
-          "equity": -0.291378,
+          "equity": -0.281399,
           "inventory": -7,
           "cash": 704.786046
         },
         {
-          "equity": -0.361378,
+          "equity": -0.351399,
           "inventory": -7,
           "cash": 704.786046
         },
         {
-          "equity": -0.291378,
+          "equity": -0.281399,
           "inventory": -7,
           "cash": 704.786046
         },
         {
-          "equity": -0.291378,
+          "equity": -0.281399,
           "inventory": -7,
           "cash": 704.786046
         },
         {
-          "equity": -0.291378,
+          "equity": -0.281399,
           "inventory": -7,
           "cash": 704.786046
         },
         {
-          "equity": -0.241454,
+          "equity": -0.231475,
           "inventory": -6,
           "cash": 604.01597
         },
         {
-          "equity": -0.251529,
+          "equity": -0.24155,
           "inventory": -5,
           "cash": 503.255895
         },
         {
-          "equity": -0.201529,
+          "equity": -0.19155,
           "inventory": -5,
           "cash": 503.255895
         },
         {
-          "equity": -0.251529,
+          "equity": -0.24155,
           "inventory": -5,
           "cash": 503.255895
         },
         {
-          "equity": -0.301529,
+          "equity": -0.29155,
           "inventory": -5,
           "cash": 503.255895
         },
         {
-          "equity": -0.261604,
+          "equity": -0.251625,
           "inventory": -4,
           "cash": 402.49582
         },
         {
-          "equity": -0.261604,
+          "equity": -0.251625,
           "inventory": -4,
           "cash": 402.49582
         },
         {
-          "equity": -0.261678,
+          "equity": -0.251699,
           "inventory": -3,
           "cash": 301.745746
         },
         {
-          "equity": -0.241752,
+          "equity": -0.231773,
           "inventory": -2,
           "cash": 200.995672
         },
         {
-          "equity": -0.241827,
+          "equity": -0.231848,
           "inventory": -3,
           "cash": 301.735597
         },
         {
-          "equity": -0.211827,
+          "equity": -0.201848,
           "inventory": -3,
           "cash": 301.735597
         },
         {
-          "equity": -0.181827,
+          "equity": -0.171848,
           "inventory": -3,
           "cash": 301.735597
         },
         {
-          "equity": -0.181827,
+          "equity": -0.171848,
           "inventory": -3,
           "cash": 301.735597
         },
         {
-          "equity": -0.181827,
+          "equity": -0.171848,
           "inventory": -3,
           "cash": 301.735597
         },
         {
-          "equity": -0.1819,
+          "equity": -0.171921,
           "inventory": -4,
           "cash": 402.455524
         },
         {
-          "equity": -0.2219,
+          "equity": -0.211921,
           "inventory": -4,
           "cash": 402.455524
         },
         {
-          "equity": -0.2219,
+          "equity": -0.211921,
           "inventory": -4,
           "cash": 402.455524
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.271974,
+          "equity": -0.261995,
           "inventory": -5,
           "cash": 503.18545
         },
         {
-          "equity": -0.272049,
+          "equity": -0.26207,
           "inventory": -6,
           "cash": 603.925375
         },
         {
-          "equity": -0.272049,
+          "equity": -0.26207,
           "inventory": -6,
           "cash": 603.925375
         },
         {
-          "equity": -0.322126,
+          "equity": -0.312147,
           "inventory": -7,
           "cash": 704.685298
         },
         {
-          "equity": -0.252126,
+          "equity": -0.242147,
           "inventory": -7,
           "cash": 704.685298
         },
         {
-          "equity": -0.322126,
+          "equity": -0.312147,
           "inventory": -7,
           "cash": 704.685298
         },
         {
-          "equity": -0.312203,
+          "equity": -0.302224,
           "inventory": -8,
           "cash": 805.445221
         },
         {
-          "equity": -0.392278,
+          "equity": -0.382299,
           "inventory": -7,
           "cash": 704.685146
         },
         {
-          "equity": -0.462278,
+          "equity": -0.452299,
           "inventory": -7,
           "cash": 704.685146
         },
         {
-          "equity": -0.472355,
+          "equity": -0.462376,
           "inventory": -6,
           "cash": 603.905069
         },
         {
-          "equity": -0.472355,
+          "equity": -0.462376,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -0.472355,
+          "equity": -0.462376,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -0.472355,
+          "equity": -0.462376,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -0.472355,
+          "equity": -0.462376,
           "inventory": 0,
           "cash": 0.0
         },
         {
-          "equity": -0.472324,
+          "equity": -0.462345,
           "inventory": 1,
           "cash": -99.699969
         },
         {
-          "equity": -0.472295,
+          "equity": -0.462316,
           "inventory": 0,
           "cash": 6e-05
         },
         {
-          "equity": -0.472266,
+          "equity": -0.462287,
           "inventory": -1,
           "cash": 99.700089
         },
         {
-          "equity": -0.482266,
+          "equity": -0.472287,
           "inventory": -1,
           "cash": 99.700089
         },
         {
-          "equity": -0.472266,
+          "equity": -0.462287,
           "inventory": -1,
           "cash": 99.700089
         },
         {
-          "equity": -0.472237,
+          "equity": -0.462258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.472237,
+          "equity": -0.462258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.472237,
+          "equity": -0.462258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.452237,
+          "equity": -0.442258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.472237,
+          "equity": -0.462258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.472237,
+          "equity": -0.462258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.492237,
+          "equity": -0.482258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.492237,
+          "equity": -0.482258,
           "inventory": -2,
           "cash": 199.400118
         },
         {
-          "equity": -0.492209,
+          "equity": -0.48223,
           "inventory": -3,
           "cash": 299.110146
         },
         {
-          "equity": -0.492181,
+          "equity": -0.482202,
           "inventory": -4,
           "cash": 398.820174
         },
         {
-          "equity": -0.492181,
+          "equity": -0.482202,
           "inventory": -4,
           "cash": 398.820174
         },
         {
-          "equity": -0.452181,
+          "equity": -0.442202,
           "inventory": -4,
           "cash": 398.820174
         },
         {
-          "equity": -0.45215,
+          "equity": -0.442171,
           "inventory": -3,
           "cash": 299.120205
         },
         {
-          "equity": -0.45215,
+          "equity": -0.442171,
           "inventory": -3,
           "cash": 299.120205
         },
         {
-          "equity": -0.48215,
+          "equity": -0.472171,
           "inventory": -3,
           "cash": 299.120205
         },
         {
-          "equity": -0.48212,
+          "equity": -0.472141,
           "inventory": -2,
           "cash": 199.410235
         },
         {
-          "equity": -0.46212,
+          "equity": -0.452141,
           "inventory": -2,
           "cash": 199.410235
         },
         {
-          "equity": -0.44212,
+          "equity": -0.432141,
           "inventory": -2,
           "cash": 199.410235
         },
         {
-          "equity": -0.44209,
+          "equity": -0.432111,
           "inventory": -3,
           "cash": 299.100265
         },
         {
-          "equity": -0.472061,
+          "equity": -0.462082,
           "inventory": -4,
           "cash": 398.800294
         },
         {
-          "equity": -0.512061,
+          "equity": -0.502082,
           "inventory": -4,
           "cash": 398.800294
         },
         {
-          "equity": -0.482031,
+          "equity": -0.472052,
           "inventory": -3,
           "cash": 299.090324
         },
         {
-          "equity": -0.452031,
+          "equity": -0.442052,
           "inventory": -3,
           "cash": 299.090324
         },
         {
-          "equity": -0.452031,
+          "equity": -0.442052,
           "inventory": -3,
           "cash": 299.090324
         },
         {
-          "equity": -0.482031,
+          "equity": -0.472052,
           "inventory": -3,
           "cash": 299.090324
         },
         {
-          "equity": -0.532001,
+          "equity": -0.522022,
           "inventory": -4,
           "cash": 398.780354
         },
         {
-          "equity": -0.572001,
+          "equity": -0.562022,
           "inventory": -4,
           "cash": 398.780354
         },
         {
-          "equity": -0.532001,
+          "equity": -0.522022,
           "inventory": -4,
           "cash": 398.780354
         },
         {
-          "equity": -0.531971,
+          "equity": -0.521992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.501971,
+          "equity": -0.491992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.531971,
+          "equity": -0.521992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.501971,
+          "equity": -0.491992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.531971,
+          "equity": -0.521992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.501971,
+          "equity": -0.491992,
           "inventory": -3,
           "cash": 299.070384
         },
         {
-          "equity": -0.50194,
+          "equity": -0.491961,
           "inventory": -2,
           "cash": 199.370415
         },
         {
-          "equity": -0.48194,
+          "equity": -0.471961,
           "inventory": -2,
           "cash": 199.370415
         },
         {
-          "equity": -0.51191,
+          "equity": -0.501931,
           "inventory": -3,
           "cash": 299.060445
         },
         {
-          "equity": -0.51191,
+          "equity": -0.501931,
           "inventory": -3,
           "cash": 299.060445
         },
         {
-          "equity": -0.511881,
+          "equity": -0.501902,
           "inventory": -4,
           "cash": 398.760474
         },
         {
-          "equity": -0.471881,
+          "equity": -0.461902,
           "inventory": -4,
           "cash": 398.760474
         },
         {
-          "equity": -0.511852,
+          "equity": -0.501873,
           "inventory": -5,
           "cash": 498.460503
         },
         {
-          "equity": -0.471821,
+          "equity": -0.461842,
           "inventory": -4,
           "cash": 398.760534
         },
         {
-          "equity": -0.431821,
+          "equity": -0.421842,
           "inventory": -4,
           "cash": 398.760534
         },
         {
-          "equity": -0.471821,
+          "equity": -0.461842,
           "inventory": -4,
           "cash": 398.760534
         },
         {
-          "equity": -0.511821,
+          "equity": -0.501842,
           "inventory": -4,
           "cash": 398.760534
         },
         {
-          "equity": -0.461792,
+          "equity": -0.451813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.461792,
+          "equity": -0.451813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.411792,
+          "equity": -0.401813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.461792,
+          "equity": -0.451813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.511792,
+          "equity": -0.501813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.511792,
+          "equity": -0.501813,
           "inventory": -5,
           "cash": 498.460563
         },
         {
-          "equity": -0.511763,
+          "equity": -0.501784,
           "inventory": -6,
           "cash": 598.160592
         },
         {
-          "equity": -0.511763,
+          "equity": -0.501784,
           "inventory": -6,
           "cash": 598.160592
         },
         {
-          "equity": -0.511763,
+          "equity": -0.501784,
           "inventory": -6,
           "cash": 598.160592
         },
         {
-          "equity": -0.571735,
+          "equity": -0.561756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.501735,
+          "equity": -0.491756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.431735,
+          "equity": -0.421756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.431735,
+          "equity": -0.421756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.501735,
+          "equity": -0.491756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.501735,
+          "equity": -0.491756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.431735,
+          "equity": -0.421756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.501735,
+          "equity": -0.491756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.431735,
+          "equity": -0.421756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.501735,
+          "equity": -0.491756,
           "inventory": -7,
           "cash": 697.87062
         },
         {
-          "equity": -0.491707,
+          "equity": -0.481728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.491707,
+          "equity": -0.481728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.411707,
+          "equity": -0.401728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.411707,
+          "equity": -0.401728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.411707,
+          "equity": -0.401728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.331707,
+          "equity": -0.321728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.411707,
+          "equity": -0.401728,
           "inventory": -8,
           "cash": 797.580648
         },
         {
-          "equity": -0.351676,
+          "equity": -0.341697,
           "inventory": -7,
           "cash": 697.880679
         },
         {
-          "equity": -0.421644,
+          "equity": -0.411665,
           "inventory": -6,
           "cash": 598.190711
         },
         {
-          "equity": -0.421644,
+          "equity": -0.411665,
           "inventory": -6,
           "cash": 598.190711
         },
         {
-          "equity": -0.361644,
+          "equity": -0.351665,
           "inventory": -6,
           "cash": 598.190711
         },
         {
-          "equity": -0.301644,
+          "equity": -0.291665,
           "inventory": -6,
           "cash": 598.190711
         },
         {
-          "equity": -0.261611,
+          "equity": -0.251632,
           "inventory": -5,
           "cash": 498.510744
         },
         {
-          "equity": -0.311611,
+          "equity": -0.301632,
           "inventory": -5,
           "cash": 498.510744
         },
         {
-          "equity": -0.311611,
+          "equity": -0.301632,
           "inventory": -5,
           "cash": 498.510744
         },
         {
-          "equity": -0.261576,
+          "equity": -0.251597,
           "inventory": -4,
           "cash": 398.850779
         },
         {
-          "equity": -0.261576,
+          "equity": -0.251597,
           "inventory": -4,
           "cash": 398.850779
         },
         {
-          "equity": -0.261576,
+          "equity": -0.251597,
           "inventory": -4,
           "cash": 398.850779
         },
         {
-          "equity": -0.301576,
+          "equity": -0.291597,
           "inventory": -4,
           "cash": 398.850779
         },
         {
-          "equity": -0.261541,
+          "equity": -0.251562,
           "inventory": -3,
           "cash": 299.190814
         },
         {
-          "equity": -0.291541,
+          "equity": -0.281562,
           "inventory": -3,
           "cash": 299.190814
         },
         {
-          "equity": -0.291541,
+          "equity": -0.281562,
           "inventory": -3,
           "cash": 299.190814
         },
         {
-          "equity": -0.291541,
+          "equity": -0.281562,
           "inventory": -3,
           "cash": 299.190814
         },
         {
-          "equity": -0.291541,
+          "equity": -0.281562,
           "inventory": -3,
           "cash": 299.190814
         },
         {
-          "equity": -0.301508,
+          "equity": -0.291529,
           "inventory": -4,
           "cash": 398.850847
         },
         {
-          "equity": -0.271474,
+          "equity": -0.261495,
           "inventory": -3,
           "cash": 299.180881
         },
         {
-          "equity": -0.271474,
+          "equity": -0.261495,
           "inventory": -3,
           "cash": 299.180881
         },
         {
-          "equity": -0.251439,
+          "equity": -0.24146,
           "inventory": -2,
           "cash": 199.520916
         },
         {
-          "equity": -0.251439,
+          "equity": -0.24146,
           "inventory": -2,
           "cash": 199.520916
         },
         {
-          "equity": -0.281405,
+          "equity": -0.271426,
           "inventory": -3,
           "cash": 299.17095
         },
         {
-          "equity": -0.311405,
+          "equity": -0.301426,
           "inventory": -3,
           "cash": 299.17095
         },
         {
-          "equity": -0.311373,
+          "equity": -0.301394,
           "inventory": -4,
           "cash": 398.840982
         },
         {
-          "equity": -0.271373,
+          "equity": -0.261394,
           "inventory": -4,
           "cash": 398.840982
         },
         {
-          "equity": -0.271338,
+          "equity": -0.261359,
           "inventory": -3,
           "cash": 299.181017
         },
         {
-          "equity": -0.271303,
+          "equity": -0.261324,
           "inventory": -2,
           "cash": 199.521052
         },
         {
-          "equity": -0.271303,
+          "equity": -0.261324,
           "inventory": -2,
           "cash": 199.521052
         },
         {
-          "equity": -0.271303,
+          "equity": -0.261324,
           "inventory": -2,
           "cash": 199.521052
         },
         {
-          "equity": -0.291303,
+          "equity": -0.281324,
           "inventory": -2,
           "cash": 199.521052
         },
         {
-          "equity": -0.271303,
+          "equity": -0.261324,
           "inventory": -2,
           "cash": 199.521052
         },
         {
-          "equity": -0.27127,
+          "equity": -0.261291,
           "inventory": -3,
           "cash": 299.181085
         },
         {
-          "equity": -0.24127,
+          "equity": -0.231291,
           "inventory": -3,
           "cash": 299.181085
         },
         {
-          "equity": -0.221234,
+          "equity": -0.211255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.221234,
+          "equity": -0.211255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.241234,
+          "equity": -0.231255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.221234,
+          "equity": -0.211255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.241234,
+          "equity": -0.231255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.241234,
+          "equity": -0.231255,
           "inventory": -2,
           "cash": 199.531121
         },
         {
-          "equity": -0.261201,
+          "equity": -0.251222,
           "inventory": -3,
           "cash": 299.191154
         },
         {
-          "equity": -0.291169,
+          "equity": -0.28119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.291169,
+          "equity": -0.28119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.291169,
+          "equity": -0.28119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.291169,
+          "equity": -0.28119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.291169,
+          "equity": -0.28119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.331169,
+          "equity": -0.32119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.331169,
+          "equity": -0.32119,
           "inventory": -4,
           "cash": 398.861186
         },
         {
-          "equity": -0.371139,
+          "equity": -0.36116,
           "inventory": -5,
           "cash": 498.551216
         },
         {
-          "equity": -0.371139,
+          "equity": -0.36116,
           "inventory": -5,
           "cash": 498.551216
         },
         {
-          "equity": -0.371139,
+          "equity": -0.36116,
           "inventory": -5,
           "cash": 498.551216
         },
         {
-          "equity": -0.321139,
+          "equity": -0.31116,
           "inventory": -5,
           "cash": 498.551216
         },
         {
-          "equity": -0.261108,
+          "equity": -0.251129,
           "inventory": -6,
           "cash": 598.231247
         },
         {
-          "equity": -0.321077,
+          "equity": -0.311098,
           "inventory": -7,
           "cash": 697.911278
         },
         {
-          "equity": -0.391077,
+          "equity": -0.381098,
           "inventory": -7,
           "cash": 697.911278
         },
         {
-          "equity": -0.321077,
+          "equity": -0.311098,
           "inventory": -7,
           "cash": 697.911278
         },
         {
-          "equity": -0.321077,
+          "equity": -0.311098,
           "inventory": -7,
           "cash": 697.911278
         },
         {
-          "equity": -0.321077,
+          "equity": -0.311098,
           "inventory": -7,
           "cash": 697.911278
         },
         {
-          "equity": -0.391047,
+          "equity": -0.381068,
           "inventory": -8,
           "cash": 797.601308
         },
         {
-          "equity": -0.471018,
+          "equity": -0.461039,
           "inventory": -9,
           "cash": 897.301337
         },
         {
-          "equity": -0.561018,
+          "equity": -0.551039,
           "inventory": -9,
           "cash": 897.301337
         },
         {
-          "equity": -0.471018,
+          "equity": -0.461039,
           "inventory": -9,
           "cash": 897.301337
         },
         {
-          "equity": -0.400988,
+          "equity": -0.391009,
           "inventory": -8,
           "cash": 797.591367
         },
         {
-          "equity": -0.480988,
+          "equity": -0.471009,
           "inventory": -8,
           "cash": 797.591367
         },
         {
-          "equity": -0.480988,
+          "equity": -0.471009,
           "inventory": -8,
           "cash": 797.591367
         },
         {
-          "equity": -0.480988,
+          "equity": -0.471009,
           "inventory": -8,
           "cash": 797.591367
         },
         {
-          "equity": -0.420958,
+          "equity": -0.410979,
           "inventory": -7,
           "cash": 697.881397
         },
         {
-          "equity": -0.350958,
+          "equity": -0.340979,
           "inventory": -7,
           "cash": 697.881397
         },
         {
-          "equity": -0.350925,
+          "equity": -0.340946,
           "inventory": -6,
           "cash": 598.20143
         },
         {
-          "equity": -0.350925,
+          "equity": -0.340946,
           "inventory": -6,
           "cash": 598.20143
         },
         {
-          "equity": -0.350925,
+          "equity": -0.340946,
           "inventory": -6,
           "cash": 598.20143
         },
         {
-          "equity": -0.350892,
+          "equity": -0.340913,
           "inventory": -5,
           "cash": 498.521463
         },
         {
-          "equity": -0.300892,
+          "equity": -0.290913,
           "inventory": -5,
           "cash": 498.521463
         },
         {
-          "equity": -0.300892,
+          "equity": -0.290913,
           "inventory": -5,
           "cash": 498.521463
         },
         {
-          "equity": -0.300892,
+          "equity": -0.290913,
           "inventory": -5,
           "cash": 498.521463
         },
         {
-          "equity": -0.300892,
+          "equity": -0.290913,
           "inventory": -5,
           "cash": 498.521463
         },
         {
-          "equity": -0.250857,
+          "equity": -0.240878,
           "inventory": -4,
           "cash": 398.861498
         },
         {
-          "equity": -0.210821,
+          "equity": -0.200842,
           "inventory": -3,
           "cash": 299.211534
         },
         {
-          "equity": -0.210821,
+          "equity": -0.200842,
           "inventory": -3,
           "cash": 299.211534
         },
         {
-          "equity": -0.210821,
+          "equity": -0.200842,
           "inventory": -3,
           "cash": 299.211534
         },
         {
-          "equity": -0.240821,
+          "equity": -0.230842,
           "inventory": -3,
           "cash": 299.211534
         },
         {
-          "equity": -0.210785,
+          "equity": -0.200806,
           "inventory": -2,
           "cash": 199.56157
         },
         {
-          "equity": -0.190785,
+          "equity": -0.180806,
           "inventory": -2,
           "cash": 199.56157
         },
         {
-          "equity": -0.190785,
+          "equity": -0.180806,
           "inventory": -2,
           "cash": 199.56157
         },
         {
-          "equity": -0.190785,
+          "equity": -0.180806,
           "inventory": -2,
           "cash": 199.56157
         },
         {
-          "equity": -0.170785,
+          "equity": -0.160806,
           "inventory": -2,
           "cash": 199.56157
         },
         {
-          "equity": -0.150746,
+          "equity": -0.140767,
           "inventory": -1,
           "cash": 99.941609
         },
         {
-          "equity": -0.140746,
+          "equity": -0.130767,
           "inventory": -1,
           "cash": 99.941609
         },
         {
-          "equity": -0.130746,
+          "equity": -0.120767,
           "inventory": -1,
           "cash": 99.941609
         },
         {
-          "equity": -0.120746,
+          "equity": -0.110767,
           "inventory": -1,
           "cash": 99.941609
         },
         {
-          "equity": -0.110703,
+          "equity": -0.100724,
           "inventory": 0,
           "cash": 0.361652
         },
         {
-          "equity": -0.110659,
+          "equity": -0.10068,
           "inventory": 1,
           "cash": -99.208304
         },
         {
-          "equity": -0.120614,
+          "equity": -0.110635,
           "inventory": 2,
           "cash": -198.768259
         },
         {
-          "equity": -0.140614,
+          "equity": -0.130635,
           "inventory": 2,
           "cash": -198.768259
         },
         {
-          "equity": -0.120614,
+          "equity": -0.110635,
           "inventory": 2,
           "cash": -198.768259
         },
         {
-          "equity": -0.140614,
+          "equity": -0.130635,
           "inventory": 2,
           "cash": -198.768259
         },
         {
-          "equity": -0.140568,
+          "equity": -0.130589,
           "inventory": 3,
           "cash": -298.318213
         },
         {
-          "equity": -0.170521,
+          "equity": -0.160542,
           "inventory": 4,
           "cash": -397.858166
         },
         {
-          "equity": -0.170474,
+          "equity": -0.160495,
           "inventory": 5,
           "cash": -497.398119
         },
         {
-          "equity": -0.120474,
+          "equity": -0.110495,
           "inventory": 5,
           "cash": -497.398119
         },
         {
-          "equity": -0.120428,
+          "equity": -0.110449,
           "inventory": 6,
           "cash": -596.948073
         },
         {
-          "equity": -0.120428,
+          "equity": -0.110449,
           "inventory": 6,
           "cash": -596.948073
         },
         {
-          "equity": -0.060428,
+          "equity": -0.050449,
           "inventory": 6,
           "cash": -596.948073
         },
         {
-          "equity": -0.060428,
+          "equity": -0.050449,
           "inventory": 6,
           "cash": -596.948073
         },
         {
-          "equity": -0.020384,
+          "equity": -0.010405,
           "inventory": 5,
           "cash": -497.398029
         },
         {
-          "equity": 0.029616,
+          "equity": 0.039595,
           "inventory": 5,
           "cash": -497.398029
         },
         {
-          "equity": -0.030341,
+          "equity": -0.020362,
           "inventory": 6,
           "cash": -596.977986
         },
         {
-          "equity": -0.030341,
+          "equity": -0.020362,
           "inventory": 6,
           "cash": -596.977986
         },
         {
-          "equity": 0.029659,
+          "equity": 0.039638,
           "inventory": 6,
           "cash": -596.977986
         },
         {
-          "equity": 0.069701,
+          "equity": 0.07968,
           "inventory": 5,
           "cash": -497.407944
         },
         {
-          "equity": 0.019701,
+          "equity": 0.02968,
           "inventory": 5,
           "cash": -497.407944
         },
         {
-          "equity": 0.019701,
+          "equity": 0.02968,
           "inventory": 5,
           "cash": -497.407944
         },
         {
-          "equity": 0.019744,
+          "equity": 0.029723,
           "inventory": 6,
           "cash": -596.987901
         },
         {
-          "equity": 0.059786,
+          "equity": 0.069765,
           "inventory": 5,
           "cash": -497.417859
         },
         {
-          "equity": 0.009786,
+          "equity": 0.019765,
           "inventory": 5,
           "cash": -497.417859
         },
         {
-          "equity": -0.040214,
+          "equity": -0.030235,
           "inventory": 5,
           "cash": -497.417859
         },
         {
-          "equity": 0.009786,
+          "equity": 0.019765,
           "inventory": 5,
           "cash": -497.417859
         },
         {
-          "equity": 0.059786,
+          "equity": 0.069765,
           "inventory": 5,
           "cash": -497.417859
         },
         {
-          "equity": 0.019826,
+          "equity": 0.029805,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": -0.020174,
+          "equity": -0.010195,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": -0.020174,
+          "equity": -0.010195,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": -0.020174,
+          "equity": -0.010195,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": 0.019826,
+          "equity": 0.029805,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": 0.059826,
+          "equity": 0.069805,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": 0.059826,
+          "equity": 0.069805,
           "inventory": 4,
           "cash": -397.827819
         },
         {
-          "equity": 0.059868,
+          "equity": 0.069847,
           "inventory": 5,
           "cash": -497.417777
         },
         {
-          "equity": 0.109868,
+          "equity": 0.119847,
           "inventory": 5,
           "cash": -497.417777
         },
         {
-          "equity": 0.109907,
+          "equity": 0.119886,
           "inventory": 4,
           "cash": -397.817738
         },
         {
-          "equity": 0.079946,
+          "equity": 0.089925,
           "inventory": 3,
           "cash": -298.217699
         },
         {
-          "equity": 0.079986,
+          "equity": 0.089965,
           "inventory": 2,
           "cash": -198.627659
         },
         {
-          "equity": 0.059986,
+          "equity": 0.069965,
           "inventory": 2,
           "cash": -198.627659
         },
         {
-          "equity": 0.059986,
+          "equity": 0.069965,
           "inventory": 2,
           "cash": -198.627659
         },
         {
-          "equity": 0.030029,
+          "equity": 0.040008,
           "inventory": 3,
           "cash": -298.207616
         },
         {
-          "equity": 0.030029,
+          "equity": 0.040008,
           "inventory": 3,
           "cash": -298.207616
         },
         {
-          "equity": 2.9e-05,
+          "equity": 0.010008,
           "inventory": 3,
           "cash": -298.207616
         },
         {
-          "equity": 0.020072,
+          "equity": 0.030051,
           "inventory": 2,
           "cash": -198.647573
         },
         {
-          "equity": 7.2e-05,
+          "equity": 0.010051,
           "inventory": 2,
           "cash": -198.647573
         },
         {
-          "equity": 7.2e-05,
+          "equity": 0.010051,
           "inventory": 2,
           "cash": -198.647573
         },
         {
-          "equity": -0.019928,
+          "equity": -0.009949,
           "inventory": 2,
           "cash": -198.647573
         },
         {
-          "equity": 0.000115,
+          "equity": 0.010094,
           "inventory": 1,
           "cash": -99.08753
         },
         {
-          "equity": 0.010115,
+          "equity": 0.020094,
           "inventory": 1,
           "cash": -99.08753
         },
         {
-          "equity": 0.020156,
+          "equity": 0.030135,
           "inventory": 0,
           "cash": 0.492511
         },
         {
-          "equity": 0.020156,
+          "equity": 0.030135,
           "inventory": 0,
           "cash": 0.492511
         },
         {
-          "equity": 0.020156,
+          "equity": 0.030135,
           "inventory": 0,
           "cash": 0.492511
         },
         {
-          "equity": 0.020196,
+          "equity": 0.030175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.030196,
+          "equity": 0.040175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.040196,
+          "equity": 0.050175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.050196,
+          "equity": 0.060175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.050196,
+          "equity": 0.060175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.060196,
+          "equity": 0.070175,
           "inventory": -1,
           "cash": 100.082551
         },
         {
-          "equity": 0.070243,
+          "equity": 0.080222,
           "inventory": 0,
           "cash": 0.542598
         },
         {
-          "equity": 0.070291,
+          "equity": 0.08027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.060291,
+          "equity": 0.07027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.060291,
+          "equity": 0.07027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.060291,
+          "equity": 0.07027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.050291,
+          "equity": 0.06027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.050291,
+          "equity": 0.06027,
           "inventory": 1,
           "cash": -98.987354
         },
         {
-          "equity": 0.050341,
+          "equity": 0.070321,
           "inventory": 2,
-          "cash": -198.497304
+          "cash": -198.487303
         },
         {
-          "equity": 0.050391,
+          "equity": 0.070371,
           "inventory": 3,
-          "cash": -298.007254
+          "cash": -297.997253
         },
         {
-          "equity": 0.080391,
+          "equity": 0.100371,
           "inventory": 3,
-          "cash": -298.007254
+          "cash": -297.997253
         }
       ]
     }
@@ -37813,8 +37813,12 @@
       "trade_quantity": 30,
       "trade_side": "sell",
       "mid": 9980.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.45344936533379193,
+        0.17716753928574927,
+        0.3693830953804588
+      ],
+      "signal": -0.0840662699533331
     },
     {
       "session": "session-10",
@@ -37828,8 +37832,12 @@
       "trade_quantity": 27,
       "trade_side": "sell",
       "mid": 9980.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.6003416028879064,
+        0.15212431813142904,
+        0.24753407898066446
+      ],
+      "signal": -0.3528075239072419
     },
     {
       "session": "session-10",
@@ -37843,8 +37851,12 @@
       "trade_quantity": 17,
       "trade_side": "sell",
       "mid": 9980.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.4176974353007313,
+        0.2014766100404004,
+        0.38082595465886837
+      ],
+      "signal": -0.03687148064186291
     },
     {
       "session": "session-10",
@@ -37858,8 +37870,12 @@
       "trade_quantity": 22,
       "trade_side": "buy",
       "mid": 9980.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.36478883513654986,
+        0.22486268828149925,
+        0.4103484765819509
+      ],
+      "signal": 0.04555964144540103
     },
     {
       "session": "session-10",
@@ -37873,8 +37889,12 @@
       "trade_quantity": 16,
       "trade_side": "sell",
       "mid": 9979.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.3789520867187631,
+        0.19930386555168514,
+        0.4217440477295517
+      ],
+      "signal": 0.04279196101078858
     },
     {
       "session": "session-11",
@@ -42313,8 +42333,12 @@
       "trade_quantity": 2,
       "trade_side": "sell",
       "mid": 10075.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.30857561869029443,
+        0.22658152180848495,
+        0.46484285950122073
+      ],
+      "signal": 0.1562672408109263
     },
     {
       "session": "session-11",
@@ -42328,8 +42352,12 @@
       "trade_quantity": 14,
       "trade_side": "buy",
       "mid": 10075.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.3643603929767701,
+        0.19814733364331258,
+        0.4374922733799173
+      ],
+      "signal": 0.07313188040314722
     },
     {
       "session": "session-11",
@@ -42343,8 +42371,12 @@
       "trade_quantity": 25,
       "trade_side": "sell",
       "mid": 10076.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.4484217287723386,
+        0.19973537491250873,
+        0.35184289631515275
+      ],
+      "signal": -0.09657883245718585
     },
     {
       "session": "session-11",
@@ -42358,8 +42390,12 @@
       "trade_quantity": 8,
       "trade_side": "buy",
       "mid": 10077.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.4200355319788339,
+        0.21049681969158,
+        0.3694676483295862
+      ],
+      "signal": -0.05056788364924775
     },
     {
       "session": "session-11",
@@ -42373,8 +42409,12 @@
       "trade_quantity": 25,
       "trade_side": "sell",
       "mid": 10077.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.4003428684287227,
+        0.1808843243628221,
+        0.41877280720845517
+      ],
+      "signal": 0.01842993877973248
     },
     {
       "session": "session-12",
@@ -46813,8 +46853,12 @@
       "trade_quantity": 6,
       "trade_side": "sell",
       "mid": 9951.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.5157909384653795,
+        0.22257159178089012,
+        0.2616374697537304
+      ],
+      "signal": -0.25415346871164907
     },
     {
       "session": "session-12",
@@ -46828,8 +46872,12 @@
       "trade_quantity": 0,
       "trade_side": "none",
       "mid": 9951.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.5114354078361002,
+        0.2272528913467808,
+        0.26131170081711896
+      ],
+      "signal": -0.25012370701898123
     },
     {
       "session": "session-12",
@@ -46843,8 +46891,12 @@
       "trade_quantity": 35,
       "trade_side": "sell",
       "mid": 9951.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.5026279308076282,
+        0.18700049197237323,
+        0.31037157721999864
+      ],
+      "signal": -0.1922563535876296
     },
     {
       "session": "session-12",
@@ -46858,8 +46910,12 @@
       "trade_quantity": 31,
       "trade_side": "sell",
       "mid": 9951.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.4967762181797112,
+        0.21025173078129328,
+        0.29297205103899554
+      ],
+      "signal": -0.20380416714071564
     },
     {
       "session": "session-12",
@@ -46873,8 +46929,12 @@
       "trade_quantity": 0,
       "trade_side": "none",
       "mid": 9952.0,
-      "probabilities": null,
-      "signal": 0.0
+      "probabilities": [
+        0.48280527770257925,
+        0.19236445495236804,
+        0.32483026734505277
+      ],
+      "signal": -0.15797501035752648
     }
   ],
   "limitations": [
@@ -46882,7 +46942,7 @@
     "Top-of-book depth cannot identify exact queue position or own market impact.",
     "One unit per quote; each activation cancels/replaces the prior quote; latency is in events.",
     "Session P&L is marked at final midpoint; inventory resets between sessions without liquidation cost.",
-    "Signals are zero during warmup and final unlabeled horizon. No annualization or independent-row significance claims.",
+    "Signals are zero during the 10-event warmup. Final unlabeled events receive forecasts but are excluded from prediction scoring. No annualization or independent-row significance claims.",
     "Post-fill markout clips to session end when the full horizon is unavailable."
   ]
 }
