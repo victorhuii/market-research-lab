@@ -1,15 +1,62 @@
 # MarketLab
 
-A local workbench for market-making research and exchange mechanics. Compare short-horizon forecasts, test quoting strategies under different fill assumptions, and inspect a deterministic matching engine.
+Market-making research and a deterministic exchange simulator, with a local dashboard for inspecting both.
 
-**The included data is synthetic. This project measures simulated behavior, not live trading profitability.** No paid APIs, AI calls, brokerage accounts or credentials are required.
+[Portfolio case study](docs/PORTFOLIO.md) · [Research findings](docs/demo/findings.md) · [Architecture](docs/ARCHITECTURE.md) · [Run checks](https://github.com/victorhuii/market-research-lab/actions)
 
-## Run
+![MarketLab: 12 synthetic sessions, 3 prediction models and 9 execution comparisons](docs/assets/portfolio-cover.png)
+
+## The question
+
+Can order-book information improve short-term forecasts, and do better forecasts translate into better simulated execution? MarketLab keeps those questions separate: a research pipeline evaluates signals, a replay engine tests quoting assumptions, and an exchange sandbox demonstrates matching and recovery.
+
+**The demo uses synthetic data. Its results demonstrate the system, not real market profitability.** Normalized CSV import is supported. No API keys, paid data feeds or brokerage accounts are needed to run it.
+
+## What it does
+
+- Compares majority, imbalance-rule and logistic-regression forecasts with chronological session splits, training-only preprocessing, class metrics and calibration.
+- Evaluates fixed, inventory-aware and signal-aware quotes under three fill assumptions, including fees, event latency and position limits.
+- Matches integer-tick limit and IOC orders using price-time priority, with partial fills, cancellations and participant balances.
+- Persists exchange commands in an fsync-backed journal, deduplicates retries and recovers from a snapshot plus replay.
+- Provides a plain browser interface for replay, CSV import, exports, simulated participant flow and experiment history.
+
+## Demo
+
+![Held-out synthetic P&L under strict trade-through fills, with signal-aware inventory over time](docs/assets/research-demo.png)
+
+*Generated from saved experiment results; not a browser screenshot. All three strategies lose after fees under the default strict-through assumption.*
+
+[Execution sensitivity image](docs/assets/execution-sensitivity.png) · [Matching-engine trace](docs/assets/matching-engine-demo.png) · [Complete portfolio copy and image captions](docs/PORTFOLIO.md)
+
+## Measured evidence
+
+| Check | Recorded result |
+| --- | --- |
+| Research dataset | 2,880 synthetic snapshots across 12 sessions; 675 labeled final-test examples |
+| Prediction comparison | Macro F1: majority 0.1864; imbalance rule 0.3830; logistic regression 0.3282 |
+| Probability quality | Log loss: majority 1.0541; imbalance rule 1.3319; logistic regression 1.0429 |
+| Execution sensitivity | Eight of nine default strategy/fill comparisons lose after fees |
+| Matching correctness | Independent reference comparison, quantity/cash conservation, FIFO and recovery checks |
+| Automated verification | 17 Python tests and 3 Node frontend checks passed locally |
+
+The fixed imbalance rule has the highest F1 in this seeded demo; logistic regression has the lowest log loss. Neither result establishes real-world trading value. Full outputs, class-level results and per-session strategy outcomes are in [research.json](docs/demo/research.json).
+
+### Matching benchmark
+
+| Processing path | Commands / second | p50 | p95 | p99 |
+| --- | ---: | ---: | ---: | ---: |
+| In-memory matching core | 124,425 | 5.88 µs | 12.71 µs | 18.04 µs |
+| Durable wrapper + fsync | 153 | 6.18 ms | 12.04 ms | 13.00 ms |
+
+One recorded run: 2,000 commands, four seeded participants, 867 trades and at most 21 resting orders on macOS 15.7.3 / arm64 / Python 3.14.2. Timings exclude networking and participant-stream generation. The durable wrapper copies retained history before committing; it favors clear state transitions over speed. These are local measurements on a small book, not production latency claims. See the [complete workload and measurements](docs/benchmark.json).
+
+## Quick start
 
 Python 3.14 and Node 24 were used for verification. The server and research pipeline need Python; Node is only used to check frontend syntax. macOS and Linux are supported (the server uses a POSIX file lock).
 
 ```sh
-cd /Users/vhui/Desktop/market-research-lab
+git clone https://github.com/victorhuii/market-research-lab.git
+cd market-research-lab
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -62,6 +109,20 @@ The engine uses integer arithmetic, price-time priority and execution at the res
 4. In Exchange, run the simulated flow, inspect partial fills and balances, then save a snapshot and recover. The confirmation compares book, trades and balances.
 5. Download the demo CSV to inspect the exact input format. Import your own chronological sessions to repeat the study.
 
-## Repository context
+## Project notes
 
 `AGENTS.md` and `docs/STATUS.md` are the compact continuation context. The raw conversation export and personal source documents are intentionally excluded. Feature commits use simple lowercase messages and are pushed to the configured GitHub origin.
+
+
+## Portfolio assets
+
+[docs/PORTFOLIO.md](docs/PORTFOLIO.md) contains a project-card summary, full case study, resume bullets, technical details, captions, alt text, image URLs and a demo walkthrough. PNG and editable SVG assets are in [docs/assets/](docs/assets/). The images are generated result charts and an engine trace; UI screenshots remain unavailable because browser capture could not be verified.
+
+To regenerate the figures from committed evidence:
+
+```sh
+python -m pip install -r requirements-assets.txt
+MPLCONFIGDIR=/tmp/marketlab-matplotlib python scripts/portfolio_assets.py
+```
+
+Figure generation is optional and does not add dependencies to the application.

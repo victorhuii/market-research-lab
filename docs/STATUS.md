@@ -28,4 +28,8 @@ Synthetic data is a pipeline demo. Imported normalized CSV is supported; raw LOB
 
 ## Continue efficiently
 
+Portfolio materials are in docs/PORTFOLIO.md, with a polished GitHub README, prepared repository metadata in .github/ABOUT.md, and four demo PNGs plus editable SVGs in docs/assets/. These are generated charts and an actual engine trace, not browser screenshots. Regenerate using scripts/portfolio_assets.py with optional requirements-assets.txt.
+
+GitHub description, eight topics and portfolio homepage link were applied and verified by API readback. Social-preview artwork is prepared; the repository social-preview setting has not been uploaded. All 20 checks passed again, all four figures were visually inspected, and local Markdown links and image dimensions were checked. A reusable download bundle is available at runtime/marketlab-portfolio-kit.zip (ignored local artifact).
+
 Read README.md and this status first. Run the app with `python3 -m marketlab.server`. Local state is ignored under runtime/. Future work should begin with actual browser QA or a real licensed dataset and fresh holdout, rather than more features or parameter searches on the demo.

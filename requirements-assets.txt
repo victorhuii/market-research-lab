@@ -1,0 +1,2 @@
+# Optional: regenerate portfolio figures, not needed to run MarketLab.
+matplotlib==3.11.2
