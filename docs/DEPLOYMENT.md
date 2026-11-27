@@ -4,7 +4,9 @@
 
 **Mode:** Recorded synthetic research demo.
 
-Package built and checked locally. Awaiting authenticated Cloudflare publishing; no live URL is claimed yet.
+Published to Cloudflare Pages. HTML, required assets, security headers and missing-API 404 behavior were verified.
+
+[Open recorded demo](https://market-research-lab.pages.dev)
 
 The Pages package is a **recorded-results demo**, not the full interactive application. It displays existing evidence and engineering choices. It has no API, uploads, new inference, live scans, trading or saved user state. The original local application remains available through the README.
 
@@ -26,11 +28,11 @@ For a direct upload after local checks:
 ```sh
 python3 scripts/build_demo.py
 python3 scripts/check_demo.py
-npx wrangler pages project create market-research-lab --production-branch main
-npx wrangler pages deploy site --project-name market-research-lab
+npx wrangler pages project create --force market-research-lab --production-branch main
+npx wrangler pages deploy --force site --project-name market-research-lab
 ```
 
-Run the project-create command only for a new Pages project. Use the actual returned deployment URL. Git-connected Pages builds automatically from subsequent pushes; direct uploads must be repeated after changes. The `demo package` workflow validates and uploads a download-only artifact; it does not deploy or store a Cloudflare token.
+The `--force` option here selects the existing Pages command path when recent Wrangler versions default to Workers migration; it does not bypass application checks or overwrite a project. Run the project-create command only for a new Pages project. Use the actual returned deployment URL. Git-connected Pages builds automatically from subsequent pushes; direct uploads must be repeated after changes. The `demo package` workflow validates and uploads a download-only artifact; it does not deploy or store a Cloudflare token.
 
 ## Full application hosting
 
